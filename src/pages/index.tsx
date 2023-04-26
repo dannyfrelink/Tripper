@@ -1,10 +1,8 @@
 import Image from 'next/image';
 import logo from "../svg/logo.svg";
-import cloud from "../svg/cloud.svg";
 import infoIcon from "../svg/info-icon.svg";
 import airplaneIcon from "../svg/airplane-icon.svg";
 import illustration from "../svg/illustration.svg";
-
 import CloudButton from '@/components/CloudButton';
 
 export default function Home() {
