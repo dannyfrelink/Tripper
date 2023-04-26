@@ -3,13 +3,11 @@ import { useState } from 'react';
 interface DetailsProps {
     children: React.ReactNode;
     summary: string;
-    className?: string;
 }
 
 const Details = ({
     children,
-    summary,
-    className
+    summary
 }: DetailsProps) => {
     const [detailStatus, setDetailStatus] = useState(false);
 
