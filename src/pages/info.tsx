@@ -94,13 +94,6 @@ export default function Info() {
                 </Details>
             </div>
         </section>
-
-        {/* <Details 
-            summary='Regelen voor vertrek'
-            className=''
-        >
-            Dit zijn zaken die allemaal geregeld moeten worden voor je aan je rondreis kan beginnen.
-        </Details> */}
     </main>
   )
 }
