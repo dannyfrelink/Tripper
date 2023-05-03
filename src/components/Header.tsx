@@ -41,7 +41,7 @@ const Header = ({
 
         {
             airplane || info ?
-                <a href="/activities" className='right-7 absolute'>
+                <a href={airplane ? "/activities" : "/info"} className='right-7 absolute'>
                     <Image
                         className='scale-[1.3]'
                         src={airplane ? airplaneIcon : info && infoIcon}

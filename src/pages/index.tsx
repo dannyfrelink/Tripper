@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import logo from "../svg/logo.svg";
-import infoIcon from "../svg/info-icon.svg";
-import airplaneIcon from "../svg/airplane-icon.svg";
-import illustration from "../svg/illustration.svg";
+import logo from '../svg/logo.svg';
+import infoIcon from '../svg/info-icon.svg';
+import airplaneIcon from '../svg/airplane-icon.svg';
+import illustration from '../svg/illustration.svg';
 import CloudButton from '@/components/CloudButton';
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
           <Image
             className='m-auto scale-110'
             src={logo}
-            alt="Tripper logo"
+            alt='Tripper logo'
           />
 
           <p className='text-primary-dark text-xl text-right mt-1'>
@@ -46,7 +46,7 @@ export default function Home() {
         <Image
           className='w-screen absolute bottom-0'
           src={illustration}
-          alt="Illustatie zonnig strand"
+          alt='Illustatie zonnig strand'
         />
       </div>
     </main>

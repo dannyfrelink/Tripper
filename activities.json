@@ -1,0 +1,108 @@
+{
+    "attractions": [
+        {
+            "id": 1,
+            "name": "Kelingking Beach",
+            "image": {
+                "src": "/assets/kelingking.jpeg",
+                "alt": "Kelingking beach"
+            },
+            "tourism": 2,
+            "price": 1,
+            "tags": "Strand, Uitzichtpunt, Actief",
+            "location": "Nusa",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 2,
+            "name": "",
+            "image": "",
+            "tourism": "",
+            "price": "",
+            "tags": "",
+            "location": "",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 3,
+            "name": "",
+            "image": "",
+            "tourism": "",
+            "price": "",
+            "tags": "",
+            "location": "",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 4,
+            "name": "",
+            "image": "",
+            "tourism": "",
+            "price": "",
+            "tags": "",
+            "location": "",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 5,
+            "name": "",
+            "image": "",
+            "tourism": "",
+            "price": "",
+            "tags": "",
+            "location": "",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 6,
+            "name": "",
+            "image": "",
+            "tourism": "",
+            "price": "",
+            "tags": "",
+            "location": "",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 7,
+            "name": "",
+            "image": "",
+            "tourism": "",
+            "price": "",
+            "tags": "",
+            "location": "",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "",
+            "tourism": "",
+            "price": "",
+            "tags": "",
+            "location": "",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 9,
+            "name": "",
+            "image": "",
+            "tourism": "",
+            "price": "",
+            "tags": "",
+            "location": "",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 10,
+            "name": "",
+            "image": "",
+            "tourism": "",
+            "price": "",
+            "tags": "",
+            "location": "",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+
+    ]
+}
