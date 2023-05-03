@@ -26,7 +26,7 @@ const ActivityCard = ({
 
     return (
         <div className="relative bg-secondary-dark w-11/12 h-48 mx-auto mt-4 rounded-xl">
-            <div className='w-1/3 h-screen'>
+            <div className='w-1/3 s'>
                 <Image 
                     className='object-cover object-center'
                     width={500}
