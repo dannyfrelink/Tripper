@@ -17,3 +17,8 @@ body {
   font-family: 'Nunito';
   background-color: var(--primary-light);
 }
+
+.map-container {
+  width: 375px;
+  height: 208px;
+}
