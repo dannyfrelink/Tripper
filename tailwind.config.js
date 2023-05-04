@@ -13,6 +13,9 @@ module.exports = {
         "secondary-light": "#58C3D1",
         "secondary-dark": "#387C85",
       },
+      boxShadow: {
+        subtle: "0px 3px 15px rgba(0, 0, 0, 0.2)",
+      },
     },
   },
   plugins: [],
