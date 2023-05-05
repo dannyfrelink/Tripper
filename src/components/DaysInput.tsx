@@ -19,7 +19,7 @@ const DaysInput = ({
 
 
     return (
-        <div className='flex items-center text-primary-dark w-11/12 mx-auto mb-3'>
+        <div className='flex items-center text-primary-dark w-11/12 mx-auto mb-3.5'>
             <label className='text-sm mr-2' htmlFor="dagen">Aantal dagen:</label>
             <input
                 value={days}
