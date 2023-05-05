@@ -13,6 +13,7 @@ interface HeaderProps {
     backArrow?: boolean;
     pencil?: boolean;
     leftAlt?: string;
+    onSubmit?: () => void;
 }
 
 const Header = ({
@@ -22,7 +23,8 @@ const Header = ({
     check = false,
     backArrow = false,
     pencil = false,
-    leftAlt = ''
+    leftAlt = '',
+    onSubmit
 }: HeaderProps) =>  (
     <header className='flex items-center justify-center w-screen h-[72px]'>
         {
@@ -31,6 +33,7 @@ const Header = ({
                 className='left-6 absolute'
                 src={check ? checkIcon : backArrow ? backArrowIcon : pencil && pencilIcon}
                 alt={leftAlt}
+                onClick={check ? onSubmit : () => {}}
             />
             : ''
         }
