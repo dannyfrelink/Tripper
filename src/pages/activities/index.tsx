@@ -62,7 +62,7 @@ export default function Activities({activities}: any) {
     
     return (
         <main>
-            <div className='fixed bg-primary-light z-10'>
+            <div className='fixed bg-primary-light z-10 before:absolute before:bottom-0 before:left-[calc(100vw/12*0.5)] before:w-[calc(100vw/12*11)] before:h-[1px] before:bg-primary-dark before:opacity-20'>
                 <Header
                     info={true}
                     rightAlt='Navigatie naar Belangrijke informatie'
