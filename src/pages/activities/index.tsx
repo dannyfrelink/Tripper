@@ -9,6 +9,12 @@ export default function Activities({activities}: any) {
     const [daysError, setDaysError] = useState(false);
     const [selected, setSelected] = useState(false);
     const selectedActivities: number[] = [];
+    const tabs: string[] = [
+        "Strand", "Natuur", "Cultuur",
+        "Watervallen", "Kinderen", "Uitzichtpunt",
+        "Actief", "Uitgaan", "Watersport"
+    ];
+    const [activeTab, setActiveTab] = useState("Strand");
 
     if (typeof window !== 'undefined') {
         const storage = { ... localStorage };
@@ -25,6 +31,11 @@ export default function Activities({activities}: any) {
                 setSelected(true) :
                 setSelected(false)
         }, [])
+    }
+
+    const handleTab = (tab: string) => {
+        setActiveTab(tab);
+        console.log("bli", tab)
     }
 
     const handleFavourite = (id: number) => {
@@ -72,7 +83,11 @@ export default function Activities({activities}: any) {
 
                 <Map />
 
-                <Tabs />
+                <Tabs 
+                    onClick={(tab) => handleTab(tab)}
+                    tabs={tabs}
+                    activeTab={activeTab}
+                />
                 
             </div>
 

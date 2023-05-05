@@ -18,7 +18,11 @@ body {
   background-color: var(--primary-light);
 }
 
-.map-container {
-  width: 375px;
-  height: 208px;
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
