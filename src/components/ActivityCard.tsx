@@ -3,7 +3,7 @@ import heartWhite from '../svg/heart-white.svg';
 import heartBlue from '../svg/heart-blue.svg';
 import tourism from '../svg/tourism.svg';
 import price from '../svg/price.svg';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 interface ActivityCardProps {
     activity: {
@@ -20,14 +20,28 @@ interface ActivityCardProps {
         href: string,
         details: string
     };
+    onClick: (e: any) => void;
 }
 
 const ActivityCard = ({
-    activity
+    activity,
+    onClick,
 }: ActivityCardProps) => {
     const [favouriteActivity, setFavouriteActivity] = useState(false);
     const tags = activity.tags.split(', ');
     const iconCount = ["", "", ""];
+
+    let storage;
+    let storageValues: string[];
+    if (typeof window !== 'undefined') {
+        storage = { ... localStorage }
+        storageValues = Object.keys(storage).filter(a => a.length === 1);
+        
+        useEffect(() => {
+            storageValues.includes(activity.id.toString()) &&
+                setFavouriteActivity(true);
+        }, []);
+    }
 
     return (
         <div className="flex items-center relative bg-secondary-dark w-11/12 h-48 mx-auto mt-4 p-4 rounded-xl shadow-subtle">
@@ -53,8 +67,8 @@ const ActivityCard = ({
                         /> :
                         <Image
                             className='scale-110 opacity-30'
-                            src={price}
-                            alt="Euro icoon"
+                            src={tourism}
+                            alt="Poppetje icoon"
                         />
                     )}
                 </div>
@@ -82,7 +96,10 @@ const ActivityCard = ({
             </div>
 
             <div 
-                onClick={() => setFavouriteActivity(!favouriteActivity)}
+                onClick={() => {
+                    onClick(activity.id);
+                    setFavouriteActivity(!favouriteActivity)
+                }}
                 className='absolute top-5 right-[18px] scale-110'
             >
                 <Image

@@ -9,7 +9,7 @@ export default function Info() {
             rightAlt='Navigeer naar Reisroute samenstellen'
         />
         
-        <section className='text-primary-light bg-secondary-dark w-11/12 m-auto rounded-xl p-7'>
+        <section className='text-primary-light bg-secondary-dark shadow-subtle w-11/12 m-auto rounded-xl p-7'>
             <h2 className='font-semibold'>
                 Belangrijke informatie Bali
             </h2>

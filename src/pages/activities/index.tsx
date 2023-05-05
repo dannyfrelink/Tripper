@@ -2,9 +2,28 @@ import Header from '@/components/Header';
 import Map from '@/components/Map';
 import Tabs from '@/components/Tabs';
 import ActivityCard from '@/components/ActivityCard';
-import Image from 'next/image';
 
 export default function Activities({activities}: any) {
+    const selectedActivities: number[] = [];
+
+    if (typeof window !== 'undefined') {
+        const storage = { ... localStorage };
+        const storageValues = Object.keys(storage).filter(a => a.length === 1);
+
+        storageValues.map(value => selectedActivities.push(Number(value)));
+    }
+
+    const handleFavourite = (id: number) => {
+        const index = selectedActivities.indexOf(id);
+
+        selectedActivities.indexOf(id) === -1 ? 
+            selectedActivities.push(id) :
+            selectedActivities.splice(index, 1);
+
+        localStorage.clear();
+        selectedActivities.map(activity => localStorage.setItem(activity.toString(), activity.toString()));
+    }
+    
     return (
         <main>
             <div className='fixed bg-primary-light z-10'>
@@ -19,7 +38,8 @@ export default function Activities({activities}: any) {
             {/* Padiding top aanpassen tot zichtbaar onder kaart */}
             <div className='pt-80'>
                 {activities.map((activity: any) => 
-                    <ActivityCard 
+                    <ActivityCard
+                        onClick={(id) => handleFavourite(id)}
                         activity={activity}
                     />
                 )}
