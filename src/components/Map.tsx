@@ -18,7 +18,8 @@ const Map = ({
         }}
         style={{
             width: '100%',
-            height: '208px'
+            height: '208px',
+            boxShadow: '0px 3px 15px rgba(0, 0, 0, 0.2)'
         }}
         mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN}
         mapStyle="mapbox://styles/mapbox/streets-v11"
