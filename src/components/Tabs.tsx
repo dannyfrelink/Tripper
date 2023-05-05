@@ -14,7 +14,7 @@ const Tabs = ({
     
 
     return (
-        <div className="flex h-8 w-screen pl-[calc(100vw/12*0.5)] mt-7 mb-3 overflow-x-scroll scrollbar-hide [&>*:last-of-type]:mr-[calc(100vw/12*0.5)]">
+        <div className="flex h-8 w-screen pl-[calc(100vw/12*0.5)] mt-8 mb-4 overflow-x-scroll scrollbar-hide [&>*:last-of-type]:mr-[calc(100vw/12*0.5)]">
             {
                 tabs.map(tab => {
                     return (
