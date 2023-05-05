@@ -35,7 +35,6 @@ export default function Activities({activities}: any) {
 
     const handleTab = (tab: string) => {
         setActiveTab(tab);
-        console.log("bli", tab)
     }
 
     const handleFavourite = (id: number) => {
@@ -93,11 +92,16 @@ export default function Activities({activities}: any) {
 
             {/* Padiding top aanpassen tot zichtbaar onder kaart */}
             <div className='pt-[450px] pb-4'>
-                {activities.map((activity: any) => 
-                    <ActivityCard
-                        onClick={(id) => handleFavourite(id)}
-                        activity={activity}
-                    />
+                {activities.map((activity: any) => {
+                    const tags = activity.tags.split(', ');
+                    
+                    return tags.includes(activeTab) &&
+                        <ActivityCard
+                            onClick={(id) => handleFavourite(id)}
+                            activity={activity}
+                        />
+                }
+                    
                 )}
             </div>
         </main>
