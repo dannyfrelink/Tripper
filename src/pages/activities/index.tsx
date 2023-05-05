@@ -90,7 +90,6 @@ export default function Activities({activities}: any) {
                 
             </div>
 
-            {/* Padiding top aanpassen tot zichtbaar onder kaart */}
             <div className='pt-[395px] pb-4'>
                 {activities.map((activity: any) => {
                     const tags = activity.tags.split(', ');
@@ -100,9 +99,7 @@ export default function Activities({activities}: any) {
                             onClick={(id) => handleFavourite(id)}
                             activity={activity}
                         />
-                }
-                    
-                )}
+                })}
             </div>
         </main>
     );
