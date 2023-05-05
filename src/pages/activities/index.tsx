@@ -91,7 +91,7 @@ export default function Activities({activities}: any) {
             </div>
 
             {/* Padiding top aanpassen tot zichtbaar onder kaart */}
-            <div className='pt-[450px] pb-4'>
+            <div className='pt-[395px] pb-4'>
                 {activities.map((activity: any) => {
                     const tags = activity.tags.split(', ');
                     
