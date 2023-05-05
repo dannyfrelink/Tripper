@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Map from '@/components/Map';
 import Tabs from '@/components/Tabs';
 import ActivityCard from '@/components/ActivityCard';
+import DaysInput from '@/components/DaysInput';
 
 export default function Activities({activities}: any) {
     const [days, setDays] = useState("");
@@ -60,27 +61,18 @@ export default function Activities({activities}: any) {
                     onSubmit={handleSubmit}
                 />
 
-                <div className='flex items-center text-primary-dark w-11/12 mx-auto mb-3'>
-                    <label className='text-sm mr-2' htmlFor="dagen">Aantal dagen:</label>
-                    <input
-                        value={days}
-                        onChange={(e) => {
-                            setDays(e.target.value);
-                            setDaysError(false);
-                        }}
-                        className='bg-primary-light text-xs border-[1px] border-primary-dark w-28 rounded-[5px] px-1 py-0.5 focus:outline-secondary-light'
-                        type="number"
-                        placeholder='Lengte rondreis'
-                    />
-
-                    {
-                        daysError &&
-                            <p className='text-red-500 text-xs ml-2'>Getal van 1 t/m 60</p>
-                    }
-                </div>
+                <DaysInput 
+                    onChange={(e) => {
+                        setDays(e.target.value);
+                        setDaysError(false);
+                    }}
+                    days={days}
+                    daysError={daysError}
+                />
 
                 <Map />
 
+                <Tabs />
                 
             </div>
 
@@ -93,10 +85,6 @@ export default function Activities({activities}: any) {
                     />
                 )}
             </div>
-
-            <Tabs>
-
-            </Tabs>
         </main>
     );
 }
