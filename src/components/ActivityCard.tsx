@@ -92,7 +92,7 @@ const ActivityCard = ({
                     {tags.map(tag => <li>{tag}</li>)}
                 </ul>
 
-                <a className='block w-fit text-primary-light border-[1px] rounded-md text-xs py-0.5 px-1.5 mt-2' href={`/activities${activity.href}`}>Meer weten</a>
+                <a className='block w-fit text-primary-light border-[1px] rounded-md text-xs py-0.5 px-1.5 mt-2' href={`/activities/${activity.id}`}>Meer weten</a>
             </div>
 
             <div 

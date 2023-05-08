@@ -3,6 +3,7 @@ import Map from '@/components/Map';
 import Tabs from '@/components/Tabs';
 import ActivityCard from '@/components/ActivityCard';
 import DaysInput from '@/components/DaysInput';
+import { useEffect, useState } from 'react';
 
 export default function Activities({activities}: any) {
     const [days, setDays] = useState("");
@@ -129,7 +130,6 @@ export default function Activities({activities}: any) {
 // Fetching local activities json
 import fsPromises from 'fs/promises';
 import path from 'path';
-import { useEffect, useState } from 'react';
 
 export async function getStaticProps() {
     const filePath = path.join(process.cwd(), 'activities.json');
