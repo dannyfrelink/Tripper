@@ -25,17 +25,27 @@ const Header = ({
     pencil = false,
     leftAlt = '',
     onSubmit
-}: HeaderProps) =>  (
+}: HeaderProps) => (
     <header className='flex items-center justify-center w-screen h-[72px]'>
         {
-            check || backArrow || pencil ?
-            <Image
-                className='left-6 absolute'
-                src={check ? checkIcon : backArrow ? backArrowIcon : pencil && pencilIcon}
-                alt={leftAlt}
-                onClick={check ? onSubmit : () => {}}
-            />
-            : ''
+            check &&
+                <Image
+                    className='left-6 absolute'
+                    src={checkIcon}
+                    alt={leftAlt}
+                    onClick={onSubmit}
+                />
+        }
+
+        {
+            backArrow || pencil ?
+                <a className='left-6 absolute' href='/activities'>
+                    <Image
+                        src={backArrow ? backArrowIcon : pencilIcon}
+                        alt={leftAlt}
+                    />
+                </a>
+                : ''
         }
 
         <h1 className='text-2xl font-bold text-primary-dark'>
