@@ -39,7 +39,7 @@ const Map = ({
             <MapMarker
                 // Lat & Long of Nusa
                 latitude={-8.73}
-                longitude={115.50}
+                longitude={115.52}
                 attractions={locations.filter(location => location === 'Nusa').length}
                 name='Nusa'
             />
