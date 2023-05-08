@@ -4,6 +4,7 @@ import Tabs from '@/components/Tabs';
 import ActivityCard from '@/components/ActivityCard';
 import DaysInput from '@/components/DaysInput';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 
 export default function Activities({activities}: any) {
     const [days, setDays] = useState("");
@@ -16,6 +17,7 @@ export default function Activities({activities}: any) {
         "Actief", "Uitgaan", "Watersport"
     ];
     const [activeTab, setActiveTab] = useState("Strand");
+    const router = useRouter();
 
     if (typeof window !== 'undefined') {
         const storage = { ... localStorage };
@@ -70,11 +72,13 @@ export default function Activities({activities}: any) {
 
     useEffect(() => {
         setLocationStatus(!locationStatus)
-    }, [selectedLocations])
+    }, [selectedLocations]);
 
     const handleSubmit = () => {
         if(days && Number(days) > 0 && Number(days) <= 60) {
             localStorage.setItem("days", days);
+
+            router.push('/overview');
         } else {
             setDaysError(true);
         }
