@@ -1,7 +1,6 @@
-import ReactMap, {Marker, Popup, ViewState} from 'react-map-gl';
+import ReactMap from 'react-map-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import MapMarker from './MapMarker';
-// import { useEffect, useRef, useState } from 'react';
 
 interface MapProps {
     locations: string[];
