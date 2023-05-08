@@ -42,6 +42,14 @@ export default function ActivitiesDetail({activity}: any) {
                 onClick={handleFavourite}
                 favouriteActivity={favouriteActivity}
             />
+
+            <div className='text-primary-dark text-[15px] w-11/12 mx-auto px-3.5 [&>*:not(:first-of-type)]:mt-2.5 my-6'>
+                {activity.details.split('//').map((paragraph: string) => 
+                    <p>{paragraph}</p>
+                )}
+
+                <a className='block w-fit text-[15px] border-[1px] border-primary-dark rounded-md py-0.5 px-1.5 mt-4' href="/activities">Verder zoeken</a>
+            </div>
         </main>
     )
 }
