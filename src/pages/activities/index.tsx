@@ -33,6 +33,14 @@ export default function Activities({activities}: any) {
         }, [])
     }
 
+    const [locationStatus, setLocationStatus] = useState(false);
+    let selectedLocations: string[] = [];
+    selectedActivities.map(id => {
+        const location = activities[id].location;
+
+        selectedLocations.push(location);
+    });
+
     const handleTab = (tab: string) => {
         setActiveTab(tab);
     }
@@ -44,6 +52,13 @@ export default function Activities({activities}: any) {
             selectedActivities.push(id) :
             selectedActivities.splice(index, 1);
         
+        selectedLocations = [];
+        selectedActivities.map(id => {
+            let location = activities[id].location;
+
+            selectedLocations.push(location);
+        });
+        
         selectedActivities.length > 0 ?
             setSelected(true) :
             setSelected(false)
@@ -51,6 +66,10 @@ export default function Activities({activities}: any) {
         localStorage.clear();
         selectedActivities.map(activity => localStorage.setItem(activity.toString(), activity.toString()));
     }
+
+    useEffect(() => {
+        setLocationStatus(!locationStatus)
+    }, [selectedLocations])
 
     const handleSubmit = () => {
         if(days && Number(days) > 0 && Number(days) <= 60) {
@@ -80,7 +99,9 @@ export default function Activities({activities}: any) {
                     daysError={daysError}
                 />
 
-                <Map />
+                <Map
+                    locations={selectedLocations}
+                />
 
                 <Tabs 
                     onClick={(tab) => handleTab(tab)}

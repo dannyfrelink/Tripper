@@ -1,7 +1,7 @@
 {
     "attractions": [
         {
-            "id": 1,
+            "id": 0,
             "name": "Kelingking Beach",
             "image": {
                 "src": "/assets/kelingking.jpeg",
@@ -15,13 +15,23 @@
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
+            "id": 1,
+            "name": "",
+            "image": "",
+            "tourism": "",
+            "price": "",
+            "tags": "Strand",
+            "location": "Nusa",
+            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
             "id": 2,
             "name": "",
             "image": "",
             "tourism": "",
             "price": "",
-            "tags": "",
-            "location": "",
+            "tags": "Strand",
+            "location": "Amed",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -30,8 +40,8 @@
             "image": "",
             "tourism": "",
             "price": "",
-            "tags": "",
-            "location": "",
+            "tags": "Strand",
+            "location": "Amed",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -40,8 +50,8 @@
             "image": "",
             "tourism": "",
             "price": "",
-            "tags": "",
-            "location": "",
+            "tags": "Strand",
+            "location": "Amed",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -86,16 +96,6 @@
         },
         {
             "id": 9,
-            "name": "",
-            "image": "",
-            "tourism": "",
-            "price": "",
-            "tags": "",
-            "location": "",
-            "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        },
-        {
-            "id": 10,
             "name": "",
             "image": "",
             "tourism": "",

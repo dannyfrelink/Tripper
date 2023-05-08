@@ -4,11 +4,11 @@ import MapMarker from './MapMarker';
 // import { useEffect, useRef, useState } from 'react';
 
 interface MapProps {
-
+    locations: string[];
 }
 
 const Map = ({
-
+    locations
 }: MapProps) =>  (
     <ReactMap
         initialViewState={{
@@ -25,40 +25,55 @@ const Map = ({
         mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN}
         mapStyle="mapbox://styles/mapbox/streets-v11"
     >
-        <MapMarker 
-            latitude={-8.58}
-            longitude={115.05}
-            attractions={3}
-            name='Canggu'
-        />
+        {locations.includes('Canggu') &&
+            <MapMarker
+                // Lat & Long of Canggu
+                latitude={-8.58}
+                longitude={115.05}
+                attractions={locations.filter(location => location === 'Canggu').length}
+                name='Canggu'
+            />
+        }
 
-        <MapMarker 
-            latitude={-8.73}
-            longitude={115.50}
-            attractions={2}
-            name='Nusa'
-        />
+        {locations.includes('Nusa') &&
+            <MapMarker
+                // Lat & Long of Nusa
+                latitude={-8.73}
+                longitude={115.50}
+                attractions={locations.filter(location => location === 'Nusa').length}
+                name='Nusa'
+            />
+        }
 
-        <MapMarker 
-            latitude={-8.45}
-            longitude={115.30}
-            attractions={1}
-            name='Ubud'
-        />
+        {locations.includes('Ubud') &&
+            <MapMarker
+                // Lat & Long of Ubud
+                latitude={-8.45}
+                longitude={115.30}
+                attractions={locations.filter(location => location === 'Ubud').length}
+                name='Ubud'
+            />
+        }
 
-        <MapMarker 
-            latitude={-8.80}
-            longitude={115.15}
-            attractions={7}
-            name='Uluwatu'
-        />
+        {locations.includes('Uluwatu') &&
+            <MapMarker
+                // Lat & Long of Uluwatu
+                latitude={-8.80}
+                longitude={115.15}
+                attractions={locations.filter(location => location === 'Uluwatu').length}
+                name='Uluwatu'
+            />
+        }
 
-        <MapMarker 
-            latitude={-8.30}
-            longitude={115.55}
-            attractions={5}
-            name='Amed'
-        />
+        {locations.includes('Amed') &&
+            <MapMarker
+                // Lat & Long of Amed
+                latitude={-8.30}
+                longitude={115.55}
+                attractions={locations.filter(location => location === 'Amed').length}
+                name='Amed'
+            />
+        }
     </ReactMap>
 );
 
