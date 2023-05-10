@@ -1,7 +1,9 @@
+import Loader from "@/components/Loader";
+
 export default function Overview() {
   return (
-    <main className="h-screen bg-blue-400">
-
+    <main>
+      <Loader/>
     </main>
   )
 }
