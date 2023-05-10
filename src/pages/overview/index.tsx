@@ -1,6 +1,6 @@
 export default function Overview() {
   return (
-    <main>
+    <main className="h-screen bg-blue-400">
 
     </main>
   )

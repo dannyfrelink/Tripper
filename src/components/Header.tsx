@@ -13,7 +13,7 @@ interface HeaderProps {
     backArrow?: boolean;
     pencil?: boolean;
     leftAlt?: string;
-    onSubmit?: () => void;
+    onSubmit?: (e: any) => void;
 }
 
 const Header = ({
@@ -29,12 +29,14 @@ const Header = ({
     <header className='flex items-center justify-center w-screen h-[72px]'>
         {
             check &&
-                <Image
-                    className='left-6 absolute'
-                    src={checkIcon}
-                    alt={leftAlt}
-                    onClick={onSubmit}
-                />
+                <a className='left-6 absolute' href='/overview' onClick={onSubmit}>
+                    <Image
+                        // className='left-6 absolute'
+                        src={checkIcon}
+                        alt={leftAlt}
+                        // onClick={onSubmit}
+                    />
+                </a>
         }
 
         {

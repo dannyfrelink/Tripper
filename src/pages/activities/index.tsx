@@ -18,6 +18,7 @@ export default function Activities({activities}: any) {
     ];
     const [activeTab, setActiveTab] = useState("Strand");
     const router = useRouter();
+    const [routerStatus, setRouterStatus] = useState(false);
 
     if (typeof window !== 'undefined') {
         const storage = { ... localStorage };
@@ -74,12 +75,11 @@ export default function Activities({activities}: any) {
         setLocationStatus(!locationStatus)
     }, [selectedLocations]);
 
-    const handleSubmit = () => {
+    const handleSubmit = (e: any) => {
         if(days && Number(days) > 0 && Number(days) <= 60) {
             localStorage.setItem("days", days);
-
-            router.push('/overview');
         } else {
+            e.preventDefault();
             setDaysError(true);
         }
     }
