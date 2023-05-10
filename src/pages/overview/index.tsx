@@ -23,7 +23,6 @@ export default function Overview({activities}: any) {
     selectedLocations = filteredActivities.map((activity: any) => activity.location);
     const activityCount = selectedLocations.length;
 
-
     const uniqueLocations = [...new Set(selectedLocations)];
     const daysPerLocation: ObjectType = {};
 
@@ -34,7 +33,9 @@ export default function Overview({activities}: any) {
       daysPerLocation[location] = Math.round(selectedLocations.filter((a:any) => a === location).length / activityCount * Number(storedDaysValue))
     );
 
-    console.log("bli", daysPerLocation)
+    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations)
+
+    console.log("bli 4", daysPerLocation)
   }
 
 
@@ -43,7 +44,7 @@ export default function Overview({activities}: any) {
 
   useEffect(() => {
     setLoading(false)
-  }, [storedDaysValue]);
+  }, []);
 
   return (
     <main>
@@ -78,6 +79,7 @@ export default function Overview({activities}: any) {
 // Fetching local activities json
 import fsPromises from 'fs/promises';
 import path from 'path';
+import adjustDivision from "@/functions/adjustDivision";
 
 export async function getStaticProps() {
     const filePath = path.join(process.cwd(), 'activities.json');
