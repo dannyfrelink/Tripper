@@ -1,13 +1,7 @@
 import Image from 'next/image';
 import loadingIcon from '../svg/loading.svg';
 
-interface LoaderProps {
-
-}
-
-const Loader = ({
-
-}: LoaderProps) => {
+const Loader = () => {
     return (
         <div className='flex flex-col justify-center items-center font-medium text-center text-primary-dark h-screen w-9/12 mx-auto before:absolute before:inset-0 before:bg-secondary-light before:z-[-1]'>
             <Image
