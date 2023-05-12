@@ -70,16 +70,16 @@ export default function adjustDivision (daysPerLocation: any, storedDaysValue: s
         let difference = Math.abs(Number(storedDaysValue) - totalDividedDays);
   
         if( difference === 2 ) {
-          if( selectedLocations.includes('Amed') ) {
-            daysPerLocation.Amed = daysPerLocation.Amed + 1;
+          if( selectedLocations.includes('Canggu') ) {
+            daysPerLocation.Canggu = daysPerLocation.Canggu + 1;
             useEffect(() => {
-              setDaysDifference('Amed');
+              setDaysDifference('Canggu');
             }, [])
           }
-          else if( selectedLocations.includes('Uluwatu') ) {
-            daysPerLocation.Uluwatu = daysPerLocation.Uluwatu + 1;
+          else if( selectedLocations.includes('Nusa') ) {
+            daysPerLocation.Nusa = daysPerLocation.Nusa + 1;
             useEffect(() => {
-              setDaysDifference('Uluwatu');
+              setDaysDifference('Nusa');
             }, [])
           }
           else if( selectedLocations.includes('Ubud') ) {
@@ -88,14 +88,14 @@ export default function adjustDivision (daysPerLocation: any, storedDaysValue: s
             setDaysDifference('Ubud');
           }, [])
           }
-          else if( selectedLocations.includes('Nusa') ) {
-            daysPerLocation.Nusa = daysPerLocation.Nusa + 1;
+          else if( selectedLocations.includes('Uluwatu') ) {
+            daysPerLocation.Uluwatu = daysPerLocation.Uluwatu + 1;
             useEffect(() => {
-              setDaysDifference('Nusa');
+              setDaysDifference('Uluwatu');
             }, [])
           }
-          else if( selectedLocations.includes('Canggu') ) {
-            daysPerLocation.Canggu = daysPerLocation.Canggu + 1;
+          else if( selectedLocations.includes('Amed') ) {
+            daysPerLocation.Amed = daysPerLocation.Amed + 1;
           }
         }
   
@@ -108,20 +108,20 @@ export default function adjustDivision (daysPerLocation: any, storedDaysValue: s
         }
   
         if( difference === 1 ) {
-          if( selectedLocations.includes('Amed') && daysDifference !== 'Amed' ) {
-            daysPerLocation.Amed = daysPerLocation.Amed + 1
-          }
-          else if( selectedLocations.includes('Uluwatu') && daysDifference !== 'Uluwatu' ) {
-            daysPerLocation.Uluwatu = daysPerLocation.Uluwatu + 1
-          }
-          else if( selectedLocations.includes('Ubud') && daysDifference !== 'Ubud' ) {
-            daysPerLocation.Ubud = daysPerLocation.Ubud + 1
+          if( selectedLocations.includes('Canggu') && daysDifference !== 'Canggu' ) {
+            daysPerLocation.Canggu = daysPerLocation.Canggu + 1
           }
           else if( selectedLocations.includes('Nusa') && daysDifference !== 'Nusa' ) {
             daysPerLocation.Nusa = daysPerLocation.Nusa + 1
           }
-          else if( selectedLocations.includes('Canggu') ) {
-            daysPerLocation.Canggu = daysPerLocation.Canggu + 1
+          else if( selectedLocations.includes('Ubud') && daysDifference !== 'Ubud' ) {
+            daysPerLocation.Ubud = daysPerLocation.Ubud + 1
+          }
+          else if( selectedLocations.includes('Uluwatu') && daysDifference !== 'Uluwatu' ) {
+            daysPerLocation.Uluwatu = daysPerLocation.Uluwatu + 1
+          }
+          else if( selectedLocations.includes('Amed') ) {
+            daysPerLocation.Amed = daysPerLocation.Amed + 1
           }
         }
       }
