@@ -37,6 +37,7 @@ export default function ActivitiesDetail({activity}: any) {
                 info={true}
                 rightAlt='Navigeren naar Belangrijke informatie'
                 backArrow={true}
+                backArrowHref='/activities'
             />
 
             <ActivityDetails

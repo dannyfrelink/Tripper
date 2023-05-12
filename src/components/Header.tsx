@@ -11,6 +11,7 @@ interface HeaderProps {
     rightAlt: string;
     check?: boolean;
     backArrow?: boolean;
+    backArrowHref?: string;
     pencil?: boolean;
     leftAlt?: string;
     onSubmit?: (e: any) => void;
@@ -22,6 +23,7 @@ const Header = ({
     rightAlt = '',
     check = false,
     backArrow = false,
+    backArrowHref,
     pencil = false,
     leftAlt = '',
     onSubmit
@@ -40,14 +42,23 @@ const Header = ({
         }
 
         {
-            backArrow || pencil ?
+            pencil &&
                 <a className='left-6 absolute' href='/activities'>
                     <Image
-                        src={backArrow ? backArrowIcon : pencilIcon}
+                        src={pencilIcon}
                         alt={leftAlt}
                     />
                 </a>
-                : ''
+        }
+
+{
+            backArrow &&
+                <a className='left-6 absolute' href={backArrowHref}>
+                    <Image
+                        src={backArrowIcon}
+                        alt={leftAlt}
+                    />
+                </a>
         }
 
         <h1 className='text-2xl font-bold text-primary-dark'>
