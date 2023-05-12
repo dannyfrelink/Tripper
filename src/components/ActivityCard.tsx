@@ -35,7 +35,7 @@ const ActivityCard = ({
     let storageValues: string[];
     if (typeof window !== 'undefined') {
         storage = { ... localStorage }
-        storageValues = Object.keys(storage).filter(a => a.length === 1);
+        storageValues = Object.keys(storage).filter(a => a.length <= 2);
         
         useEffect(() => {
             storageValues.includes(activity.id.toString()) &&

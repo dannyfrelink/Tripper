@@ -20,7 +20,7 @@ export default function Overview({activities}: any) {
     const storage = { ... localStorage };
     const storageArr = Object.keys(storage);
 
-    const storedActivities = storageArr.filter(a => a.length === 1);
+    const storedActivities = storageArr.filter(a => a.length <= 2);
     const filteredActivities = activities.filter((activity: any) => storedActivities.includes(activity.id.toString()));
     selectedLocations = filteredActivities.map((activity: any) => activity.location);
     const activityCount = selectedLocations.length;

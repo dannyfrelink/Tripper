@@ -22,7 +22,7 @@ export default function Activities({activities}: any) {
 
     if (typeof window !== 'undefined') {
         const storage = { ... localStorage };
-        const storageValues = Object.keys(storage).filter(a => a.length === 1);
+        const storageValues = Object.keys(storage).filter(a => a.length <= 2);
         const daysStorage = Object.keys(storage).filter(a => a === "days");
 
         storageValues.map(value => selectedActivities.push(Number(value)));
