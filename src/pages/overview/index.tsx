@@ -26,8 +26,12 @@ export default function Overview({activities}: any) {
     const activityCount = selectedLocations.length;
 
     const uniqueLocations = [...new Set(selectedLocations)];
+    const map: ObjectType = { Canggu: 1, Ubud: 2, Amed: 3, Nusa: 4, Uluwatu: 5 };
+    uniqueLocations.sort((x, y) => map[x] - map[y]);
+
     const storedDaysKey = storageArr.filter(a => a === 'days');
     storedDaysValue = storage[storedDaysKey[0]];
+
     uniqueLocations.map((location: any) =>
       daysPerLocation[location] = Math.round(selectedLocations.filter((a:any) => a === location).length / activityCount * Number(storedDaysValue))
     );
