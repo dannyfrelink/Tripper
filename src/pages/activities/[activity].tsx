@@ -43,9 +43,9 @@ export default function ActivitiesDetail({activity}: any) {
                 favouriteActivity={favouriteActivity}
             />
 
-        <ActivityDetailsContent
-            activity={activity}
-        />
+            <ActivityDetailsContent
+                activity={activity}
+            />
         </main>
     )
 }
