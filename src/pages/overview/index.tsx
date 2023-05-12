@@ -2,6 +2,7 @@ import Loader from "@/components/Loader";
 import Header from "@/components/Header";
 import Map from "@/components/Map";
 import TravelSchedule from "@/components/TravelSchedule";
+import adjustDivision from "@/functions/adjustDivision";
 import { useEffect, useState } from "react";
 
 interface ObjectType {
@@ -78,7 +79,6 @@ export default function Overview({activities}: any) {
 // Fetching local activities json
 import fsPromises from 'fs/promises';
 import path from 'path';
-import adjustDivision from "@/functions/adjustDivision";
 
 export async function getStaticProps() {
     const filePath = path.join(process.cwd(), 'activities.json');

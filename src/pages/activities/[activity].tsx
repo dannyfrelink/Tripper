@@ -1,5 +1,7 @@
 import Header from '@/components/Header';
 import ActivityDetails from '@/components/ActivityDetails';
+import ActivityDetailsContent from '@/components/ActivityDetailsContent';
+import { useEffect, useState } from 'react';
 
 export default function ActivitiesDetail({activity}: any) {
     const [favouriteActivity, setFavouriteActivity] = useState(false);
@@ -53,8 +55,6 @@ export default function ActivitiesDetail({activity}: any) {
 // Fetching local activities json
 import fsPromises from 'fs/promises';
 import path from 'path';
-import { useEffect, useState } from 'react';
-import ActivityDetailsContent from '@/components/ActivityDetailsContent';
 
 export async function getStaticPaths() {
     const filePath = path.join(process.cwd(), 'activities.json');
