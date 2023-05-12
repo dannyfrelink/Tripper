@@ -32,11 +32,15 @@ export default function Overview({activities}: any) {
     const storedDaysKey = storageArr.filter(a => a === 'days');
     storedDaysValue = storage[storedDaysKey[0]];
 
-    uniqueLocations.map((location: any) =>
+    uniqueLocations.map((location: any) => 
       daysPerLocation[location] = Math.round(selectedLocations.filter((a:any) => a === location).length / activityCount * Number(storedDaysValue))
     );
 
-    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations)
+    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations);
+
+    Object.keys(daysPerLocation).map(location => {
+      localStorage.setItem(location, daysPerLocation[location].toString());
+    });
   }
 
 
