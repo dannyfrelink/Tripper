@@ -13,6 +13,7 @@ export default function Overview({activities}: any) {
 
   let storedDaysValue: string = '';
   let selectedLocations: string[] = [];
+  let daysPerLocation: ObjectType = {};
 
   if (typeof window !== 'undefined') {
     const storage = { ... localStorage };
@@ -24,19 +25,16 @@ export default function Overview({activities}: any) {
     const activityCount = selectedLocations.length;
 
     const uniqueLocations = [...new Set(selectedLocations)];
-    const daysPerLocation: ObjectType = {};
-
     const storedDaysKey = storageArr.filter(a => a === 'days');
     storedDaysValue = storage[storedDaysKey[0]];
-
     uniqueLocations.map((location: any) =>
       daysPerLocation[location] = Math.round(selectedLocations.filter((a:any) => a === location).length / activityCount * Number(storedDaysValue))
     );
 
     adjustDivision(daysPerLocation, storedDaysValue, selectedLocations)
-
-    console.log("bli 4", daysPerLocation)
   }
+
+
 
 
 
@@ -69,6 +67,7 @@ export default function Overview({activities}: any) {
 
             <TravelSchedule 
               storedDaysValue={storedDaysValue}
+              daysPerLocation={daysPerLocation}
             />
           </div>
       }
