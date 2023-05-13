@@ -9,12 +9,17 @@ interface ObjectType {
   [location: string]: number;
 } 
 
+interface ObjectTypeText {
+  [location: string]: string;
+}
+
 export default function Overview({activities}: any) {
   const [loading, setLoading] = useState(true);
 
   let storedDaysValue: string = '';
   let selectedLocations: string[] = [];
   let daysPerLocation: ObjectType = {};
+  let daysInTextPerLocation: ObjectTypeText = {};
 
   if (typeof window !== 'undefined') {
     const storage = { ... localStorage };
@@ -32,17 +37,21 @@ export default function Overview({activities}: any) {
     const storedDaysKey = storageArr.filter(a => a === 'days');
     storedDaysValue = storage[storedDaysKey[0]];
 
-    uniqueLocations.map((location: any) => 
+    uniqueLocations.map((location: string) => 
       daysPerLocation[location] = Math.round(selectedLocations.filter((a:any) => a === location).length / activityCount * Number(storedDaysValue))
     );
 
-    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations);
+    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations); 
 
-    Object.keys(daysPerLocation).map(location => {
+    Object.keys(daysPerLocation).map((location: string) => {
+      daysInTextPerLocation[location] = toWords(daysPerLocation[location] > 1 ? daysPerLocation[location] - 1 : daysPerLocation[location]);
+
       localStorage.setItem(location, daysPerLocation[location].toString());
     });
   }
 
+
+  console.log("bli", daysInTextPerLocation)
 
 
 
@@ -87,6 +96,7 @@ export default function Overview({activities}: any) {
 // Fetching local activities json
 import fsPromises from 'fs/promises';
 import path from 'path';
+import toWords from "@/functions/toWords";
 
 export async function getStaticProps() {
     const filePath = path.join(process.cwd(), 'activities.json');
