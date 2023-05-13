@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Map from "@/components/Map";
 import TravelSchedule from "@/components/TravelSchedule";
 import adjustDivision from "@/functions/adjustDivision";
+import numberToWords from "@/functions/numberToWords";
 import { useEffect, useState } from "react";
 
 interface ObjectType {
@@ -44,14 +45,12 @@ export default function Overview({activities}: any) {
     adjustDivision(daysPerLocation, storedDaysValue, selectedLocations); 
 
     Object.keys(daysPerLocation).map((location: string) => {
-      daysInTextPerLocation[location] = toWords(daysPerLocation[location] > 1 ? daysPerLocation[location] - 1 : daysPerLocation[location]);
+      daysInTextPerLocation[location] = numberToWords(daysPerLocation[location] > 1 ? daysPerLocation[location] - 1 : daysPerLocation[location]);
 
       localStorage.setItem(location, daysPerLocation[location].toString());
     });
   }
 
-
-  console.log("bli", daysInTextPerLocation)
 
 
 
@@ -96,7 +95,6 @@ export default function Overview({activities}: any) {
 // Fetching local activities json
 import fsPromises from 'fs/promises';
 import path from 'path';
-import toWords from "@/functions/toWords";
 
 export async function getStaticProps() {
     const filePath = path.join(process.cwd(), 'activities.json');
