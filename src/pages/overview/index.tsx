@@ -42,7 +42,7 @@ export default function Overview({activities}: any) {
       daysPerLocation[location] = Math.round(selectedLocations.filter((a:any) => a === location).length / activityCount * Number(storedDaysValue))
     );
 
-    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations); 
+    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations);
 
     Object.keys(daysPerLocation).map((location: string) => {
       daysInTextPerLocation[location] = numberToWords(daysPerLocation[location] > 1 ? daysPerLocation[location] - 1 : daysPerLocation[location]);
@@ -51,15 +51,34 @@ export default function Overview({activities}: any) {
     });
   }
 
-
-
-
-
-
-
   useEffect(() => {
-    setLoading(false)
-  }, []);
+    let generatedTextPerLocation: ObjectTypeText = {};
+
+    Object.keys(daysInTextPerLocation).map(async (location) => {
+      if(localStorage.getItem(`${location}-content`) === null) {
+        let generatedText = await fetch('/api/generateDaySchedule', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            prompt: "Maak een reisroute voor drie dagen met enkel deze activiteiten in lopende tekst: Kelingking Beach, Blue Lagoon, Broken Beach, Devil's Tear, Angel's Billabong. Er mogen geen andere activiteiten bijkomen."
+          })
+        }).then(res => res.json());
+
+        generatedTextPerLocation[`${location}-content`] = generatedText.text;
+
+        if(Object.keys(generatedTextPerLocation).length === Object.keys(daysInTextPerLocation).length) {
+          Object.keys(generatedTextPerLocation).map(location => {
+            localStorage.setItem(location, generatedTextPerLocation[location]);
+            setLoading(false);
+          });
+        }
+      } else {
+        setLoading(false)
+      }
+    });
+  }, [daysInTextPerLocation]);
 
   return (
     <main>
