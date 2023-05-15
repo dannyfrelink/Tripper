@@ -14,6 +14,25 @@ interface ObjectTypeText {
   [location: string]: string;
 }
 
+interface Activity {
+  id: number,
+  name: string,
+  image: {
+      src: string,
+      alt: string
+  },
+  tourism: number,
+  price: number,
+  tags: string,
+  location: string,
+  href: string,
+  details: string
+};
+
+interface ObjectTypeArray {
+  [location: string]: Activity[];
+}
+
 export default function Overview({activities}: any) {
   const [loading, setLoading] = useState(true);
 
@@ -21,6 +40,7 @@ export default function Overview({activities}: any) {
   let selectedLocations: string[] = [];
   let daysPerLocation: ObjectType = {};
   let daysInTextPerLocation: ObjectTypeText = {};
+  let activitiesPerLocation: ObjectTypeArray = {};
 
   if (typeof window !== 'undefined') {
     const storage = { ... localStorage };
@@ -38,9 +58,11 @@ export default function Overview({activities}: any) {
     const storedDaysKey = storageArr.filter(a => a === 'days');
     storedDaysValue = storage[storedDaysKey[0]];
 
-    uniqueLocations.map((location: string) => 
-      daysPerLocation[location] = Math.round(selectedLocations.filter((a:any) => a === location).length / activityCount * Number(storedDaysValue))
-    );
+    uniqueLocations.map((location: string) => {
+      activitiesPerLocation[location] = filteredActivities.filter((activity: any) => activity.location === location);
+
+      daysPerLocation[location] = Math.round(selectedLocations.filter((a:any) => a === location).length / activityCount * Number(storedDaysValue));
+    });
 
     adjustDivision(daysPerLocation, storedDaysValue, selectedLocations);
 
@@ -55,6 +77,8 @@ export default function Overview({activities}: any) {
     let generatedTextPerLocation: ObjectTypeText = {};
 
     Object.keys(daysInTextPerLocation).map(async (location) => {
+      const activities = activitiesPerLocation[location].map(activity => activity.name);
+
       if(localStorage.getItem(`${location}-content`) === null) {
         let generatedText = await fetch('/api/generateDaySchedule', {
           method: 'POST',
@@ -62,7 +86,7 @@ export default function Overview({activities}: any) {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            prompt: "Maak een reisroute voor drie dagen met enkel deze activiteiten in lopende tekst: Kelingking Beach, Blue Lagoon, Broken Beach, Devil's Tear, Angel's Billabong. Er mogen geen andere activiteiten bijkomen."
+            prompt: `Maak een reisroute voor ${daysInTextPerLocation[location]} dagen met enkel deze activiteiten in lopende tekst: ${activities.join(", ")}`
           })
         }).then(res => res.json());
 
@@ -75,7 +99,7 @@ export default function Overview({activities}: any) {
           });
         }
       } else {
-        setLoading(false)
+        setLoading(false);
       }
     });
   }, [daysInTextPerLocation]);
