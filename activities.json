@@ -74,7 +74,7 @@
             "id": 5,
             "name": "Peguyangan",
             "image": {
-                "src": "/assets/activities/nusa/peguyangan",
+                "src": "/assets/activities/nusa/peguyangan.jpeg",
                 "alt": "Peguyangan"
             },
             "tourism": "",
@@ -242,7 +242,7 @@
             "id": 17,
             "name": "La Brisa",
             "image": {
-                "src": "la-brisa.webp",
+                "src": "/assets/activities/canggu/la-brisa.webp",
                 "alt": "La Brisa"
             },
             "tourism": "",
@@ -317,7 +317,7 @@
             },
             "tourism": "",
             "price": "",
-            "tags": "Strand",
+            "tags": "Strand, Uitgaan, Test",
             "location": "Canggu",
             "coordinates": "",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
@@ -380,10 +380,10 @@
         },
         {
             "id": 27,
-            "name": "Campuhan Ridge Walk",
+            "name": "Campuhan Walk",
             "image": {
-                "src": "/assets/activities/ubud/campuhan-ridge-walk.jpeg",
-                "alt": "Campuhan Ridge Walk"
+                "src": "/assets/activities/ubud/campuhan-walk.jpeg",
+                "alt": "Campuhan Walk"
             },
             "tourism": "",
             "price": "",
@@ -704,7 +704,7 @@
             "id": 50,
             "name": "USS Liberty Wreck",
             "image": {
-                "src": "/assets/activities/uluwatu/uss-liberty-wreck.jpeg",
+                "src": "/assets/activities/amed/uss-liberty-wreck.jpeg",
                 "alt": "USS Liberty Wreck"
             },
             "tourism": "",
@@ -718,7 +718,7 @@
             "id": 51,
             "name": "Japanese Shipwreck",
             "image": {
-                "src": "/assets/activities/uluwatu/japanese-shipwreck.jpeg",
+                "src": "/assets/activities/amed/japanese-shipwreck.jpeg",
                 "alt": "Japanese Shipwreck"
             },
             "tourism": "",
@@ -732,7 +732,7 @@
             "id": 52,
             "name": "Jemeluk Bay",
             "image": {
-                "src": "/assets/activities/uluwatu/jemeluk-bay.jpeg",
+                "src": "/assets/activities/amed/jemeluk-bay.jpeg",
                 "alt": "Jemeluk Bay"
             },
             "tourism": "",
@@ -746,7 +746,7 @@
             "id": 53,
             "name": "Bukit Cinta",
             "image": {
-                "src": "/assets/activities/uluwatu/bukit-cinta.jpeg",
+                "src": "/assets/activities/amed/bukit-cinta.jpeg",
                 "alt": "Bukit Cinta"
             },
             "tourism": "",
@@ -760,7 +760,7 @@
             "id": 54,
             "name": "Yoga",
             "image": {
-                "src": "/assets/activities/uluwatu/yoga.jpeg",
+                "src": "/assets/activities/amed/yoga.jpeg",
                 "alt": "Yoga"
             },
             "tourism": "",
@@ -774,7 +774,7 @@
             "id": 55,
             "name": "Lokaal vissen",
             "image": {
-                "src": "/assets/activities/uluwatu/local-fishing.jpeg",
+                "src": "/assets/activities/amed/local-fishing.jpeg",
                 "alt": "Lokaal vissen"
             },
             "tourism": "",
@@ -788,7 +788,7 @@
             "id": 56,
             "name": "Movie night",
             "image": {
-                "src": "/assets/activities/uluwatu/movie-night.jpg",
+                "src": "/assets/activities/amed/movie-night.jpg",
                 "alt": "Movie night"
             },
             "tourism": "",
@@ -802,7 +802,7 @@
             "id": 57,
             "name": "Tirta Gangga",
             "image": {
-                "src": "/assets/activities/uluwatu/tirta-gangga.jpeg",
+                "src": "/assets/activities/amed/tirta-gangga.jpeg",
                 "alt": "Tirta Gangga"
             },
             "tourism": "",
@@ -816,7 +816,7 @@
             "id": 58,
             "name": "Sunset Point",
             "image": {
-                "src": "/assets/activities/uluwatu/sunset-point.jpeg",
+                "src": "/assets/activities/amed/sunset-point.jpeg",
                 "alt": "Sunset Point"
             },
             "tourism": "",
