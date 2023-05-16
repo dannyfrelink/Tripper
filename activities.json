@@ -345,22 +345,22 @@
             },
             "tourism": "",
             "price": "",
-            "tags": "Wateractiviteit, Ontspannen, Kinderen",
+            "tags": "Wateractiviteit, Kinderen",
             "location": "Canggu",
             "coordinates": "",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
             "id": 25,
-            "name": "Jungle Fish Bar",
+            "name": "Tonic Spa",
             "image": {
-                "src": "/assets/activities/ubud/jungle-fish.jpeg",
-                "alt": "Jungle Fish Bar"
+                "src": "/assets/activities/canggu/tonic-spa.jpeg",
+                "alt": "Tonic Spa"
             },
             "tourism": "",
             "price": "",
-            "tags": "Natuur, Wateractiviteit, Ontspannen",
-            "location": "Ubud",
+            "tags": "Cultuur, Ontspannen",
+            "location": "Canggu",
             "coordinates": "",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
@@ -534,15 +534,15 @@
         },
         {
             "id": 38,
-            "name": "The Rock Bar",
+            "name": "Jungle Fish Bar",
             "image": {
-                "src": "/assets/activities/uluwatu/rock-bar.jpeg",
-                "alt": "The Rock Bar"
+                "src": "/assets/activities/ubud/jungle-fish.jpeg",
+                "alt": "Jungle Fish Bar"
             },
             "tourism": "",
             "price": "",
-            "tags": "Ontspannen, Uitzichtpunt, Uitgaan",
-            "location": "Uluwatu",
+            "tags": "Natuur, Wateractiviteit, Ontspannen",
+            "location": "Ubud",
             "coordinates": "",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
@@ -632,14 +632,14 @@
         },
         {
             "id": 45,
-            "name": "Sunset Point",
+            "name": "The Rock Bar",
             "image": {
-                "src": "/assets/activities/uluwatu/sunset-point.jpeg",
-                "alt": "Sunset Point"
+                "src": "/assets/activities/uluwatu/rock-bar.jpeg",
+                "alt": "The Rock Bar"
             },
             "tourism": "",
             "price": "",
-            "tags": "Ontspannen, Uitzichtpunt",
+            "tags": "Ontspannen, Uitzichtpunt, Uitgaan",
             "location": "Uluwatu",
             "coordinates": "",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
