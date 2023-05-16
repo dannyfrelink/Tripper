@@ -71,6 +71,8 @@ export default function Overview({activities}: any) {
 
       localStorage.setItem(location, daysPerLocation[location].toString());
     });
+
+    localStorage.setItem('daysPerLocation', JSON.stringify(daysPerLocation))
   }
 
   useEffect(() => {
@@ -78,8 +80,6 @@ export default function Overview({activities}: any) {
 
     Object.keys(daysInTextPerLocation).map(async (location) => {
       const activities = activitiesPerLocation[location].map(activity => activity.name);
-
-      console.log("bli 9", activities)
 
       if(localStorage.getItem(`${location}-content`) === null) {
         let generatedText = await fetch('/api/generateDaySchedule', {
