@@ -88,7 +88,7 @@ const ActivityCard = ({
                     )}
                 </div>
 
-                <ul className='text-primary-light list-disc list-inside text-sm mt-2'>
+                <ul className='min-h-[60px] text-primary-light list-disc list-inside text-sm mt-2'>
                     {tags.map(tag => <li>{tag}</li>)}
                 </ul>
 
