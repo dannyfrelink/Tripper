@@ -65,18 +65,10 @@ export default function Overview({location}: any) {
 
                 {
                     activityLoad &&
-                        <div className='[&>*:first-of-type]:mt-5 [&>*]:mt-3'>
-                            <Details summary={`Dag 1: aankomst ${filteredActivities[0].location}`}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a autem impedit distinctio voluptatum. Voluptatum modi provident molestiae minima necessitatibus. Non, tempore excepturi assumenda architecto sit facilis nesciunt ullam voluptate.
-                            </Details>
-                            {
-                                Object.keys(daySchedulePerDay).map(day => 
-                                    <Details summary={`${day}: activiteiten`}>
-                                        {daySchedulePerDay[day]}
-                                    </Details>
-                                )
-                            }
-                        </div>
+                        <DaySchedule
+                            location={filteredActivities[0].location}
+                            daySchedulePerDay={daySchedulePerDay}
+                        />
                 }
             </div>
         </main>
@@ -87,6 +79,7 @@ export default function Overview({location}: any) {
 import fsPromises from 'fs/promises';
 import path from 'path';
 import Details from '@/components/Details';
+import DaySchedule from '@/components/DaySchedule';
 
 export async function getStaticPaths() {
     const filePath = path.join(process.cwd(), 'activities.json');
