@@ -12,9 +12,10 @@ export default function Activities({activities}: any) {
     const [selected, setSelected] = useState(false);
     const selectedActivities: number[] = [];
     const tabs: string[] = [
-        "Strand", "Natuur", "Cultuur",
-        "Watervallen", "Kinderen", "Uitzichtpunt",
-        "Actief", "Uitgaan", "Watersport"
+        "Strand", "Natuur", "Cultuur", "Dieren",
+        "Waterval", "Kinderen", "Uitzichtpunt",
+        "Ontspannen", "Actief", "Uitgaan",
+        "Wateractiviteit", "Snorkelen", "Sport"
     ];
     const [activeTab, setActiveTab] = useState("Strand");
     const router = useRouter();
