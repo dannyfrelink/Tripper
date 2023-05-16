@@ -79,6 +79,8 @@ export default function Overview({activities}: any) {
     Object.keys(daysInTextPerLocation).map(async (location) => {
       const activities = activitiesPerLocation[location].map(activity => activity.name);
 
+      console.log("bli 9", activities)
+
       if(localStorage.getItem(`${location}-content`) === null) {
         let generatedText = await fetch('/api/generateDaySchedule', {
           method: 'POST',
@@ -86,7 +88,7 @@ export default function Overview({activities}: any) {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            prompt: `Maak een reisroute voor ${daysInTextPerLocation[location]} dagen met enkel deze activiteiten in lopende tekst: ${activities.join(", ")}`
+            prompt: `Maak een reisroute voor ${daysInTextPerLocation[location]} dagen met enkel deze activiteiten in lopende tekst: ${activities.join(", ")}. Er mogen geen andere activiteiten bijkomen.`
           })
         }).then(res => res.json());
 
