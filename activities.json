@@ -352,10 +352,10 @@
         },
         {
             "id": 25,
-            "name": "Jungle Fish",
+            "name": "Jungle Fish Bar",
             "image": {
                 "src": "/assets/activities/ubud/jungle-fish.jpeg",
-                "alt": "Jungle Fish"
+                "alt": "Jungle Fish Bar"
             },
             "tourism": "",
             "price": "",
