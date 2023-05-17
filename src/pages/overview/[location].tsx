@@ -1,7 +1,4 @@
-import Loader from '@/components/Loader';
 import Header from '@/components/Header';
-import Map from '@/components/Map';
-import TravelSchedule from '@/components/TravelSchedule';
 import MapLocation from '@/components/MapLocation';
 import { useEffect, useState } from 'react';
 
@@ -16,7 +13,6 @@ export default function Overview({location}: any) {
     let daysForLocation;
     let daySchedule;
     let daySchedulePerDay: ObjectTypeText = {};
-
 
     if (typeof window !== 'undefined') {
         const storage = { ... localStorage };
