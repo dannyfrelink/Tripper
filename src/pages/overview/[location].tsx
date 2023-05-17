@@ -30,7 +30,7 @@ export default function Overview({location}: any) {
         daysForLocation = daysPerLocationObject[filteredActivities[0].location];
 
         daySchedule = storage[`${filteredActivities[0].location}-content`];
-        const dayScheduleClean = daySchedule.replaceAll(':','');
+        const dayScheduleClean = daySchedule.replaceAll(':','').replaceAll('-','');
 
         for (let i = 1; i < daysForLocation; i++) {
             const scheduleSplit1 = dayScheduleClean.split(`Dag ${i}`);
