@@ -9,7 +9,7 @@ interface ObjectTypeText {
 
 export default function Overview({location}: any) {
     const [activityLoad, setActivityLoad] = useState(false);
-    let filteredActivities: ObjectTypeText[] = [];
+    let filteredActivities = [];
     let daysForLocation;
     let daySchedule;
     let daySchedulePerDay: ObjectTypeText = {};
@@ -38,7 +38,7 @@ export default function Overview({location}: any) {
 
     useEffect(() => {
         setActivityLoad(true)
-    }, [daySchedulePerDay]);
+    }, [filteredActivities]);
 
     return (
         <main>
@@ -51,7 +51,7 @@ export default function Overview({location}: any) {
             />
 
             <MapLocation 
-                location={activityLoad ? filteredActivities[0].location : 'Nusa'}
+                activities={filteredActivities}
             />
 
             <div className='text-primary-light bg-secondary-dark shadow-subtle w-11/12 m-auto rounded-xl p-7 mt-7'>
