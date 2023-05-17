@@ -11,7 +11,7 @@
             "price": 1,
             "tags": "Strand, Uitzichtpunt, Actief",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.750644, 115.474693",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -21,11 +21,11 @@
                 "src": "/assets/activities/nusa/pulau-seribu.jpeg",
                 "alt": "Pulau Seribu"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 1,
             "tags": "Natuur, Uitzichtpunt",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.77605278954, 115.618198402",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -35,11 +35,11 @@
                 "src": "/assets/activities/nusa/broken-beach.jpeg",
                 "alt": "Broken Beach"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 1,
             "tags": "Strand, Uitzichtpunt",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.67262914778, 115.557314437",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -49,11 +49,11 @@
                 "src": "/assets/activities/nusa/angels-billabong.jpeg",
                 "alt": "Angel's Billabong"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 1,
             "tags": "Natuur, Uitzichtpunt",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.74785730139, 115.454700217",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -63,11 +63,11 @@
                 "src": "/assets/activities/nusa/snorkelen.jpeg",
                 "alt": "Snorkelen"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Snorkelen, Dieren, Actief",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.682239, 115.488533",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -77,11 +77,11 @@
                 "src": "/assets/activities/nusa/peguyangan.jpeg",
                 "alt": "Peguyangan"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Waterval, Natuur, Actief",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.627679, 115.209665",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -91,11 +91,11 @@
                 "src": "/assets/activities/nusa/crystal-bay.jpeg",
                 "alt": "Crystal Bay"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 1,
             "tags": "Strand, Ontspannen",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.7154244, 115.4486504",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -105,11 +105,11 @@
                 "src": "/assets/activities/nusa/diamond-beach.jpg",
                 "alt": "Diamond Beach"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 1,
             "tags": "Strand, Uitzichtpunt, Actief",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.77614490505, 115.618609786",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -119,11 +119,11 @@
                 "src": "/assets/activities/nusa/teletubbies-hill.png",
                 "alt": "Teletubbies Hill"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Natuur, Kinderen",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.7909321, 115.5618229",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -133,11 +133,11 @@
                 "src": "/assets/activities/nusa/tembeling-beach.jpeg",
                 "alt": "Tembeling Beach"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Natuur, Wateractiviteit",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.76794322165, 115.486907959",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -147,11 +147,11 @@
                 "src": "/assets/activities/nusa/banah-cliff.jpeg",
                 "alt": "Banah Cliff"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Natuur, Uitzichtpunt",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.76709494412, 115.487251282",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -161,11 +161,11 @@
                 "src": "/assets/activities/nusa/goa-giri.jpeg",
                 "alt": "Goa Giri Putri"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Cultuur, Natuur, Actief",
             "location": "Nusa",
-            "coordinates": "",
+            "coordinates": "-8.708806, 115.586064",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -175,11 +175,11 @@
                 "src": "/assets/activities/canggu/surfen.jpeg",
                 "alt": "Surfen"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Sport, Wateractiviteit, Actief",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.6573794, 115.1279297",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -189,11 +189,11 @@
                 "src": "/assets/activities/canggu/tanah-lot.jpeg",
                 "alt": "Pura Tanah Lot"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 2,
             "tags": "Cultuur, Natuur, Uitzichtpunt",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.6206, 115.0872",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -203,11 +203,11 @@
                 "src": "/assets/activities/canggu/berawa-beach.jpeg",
                 "alt": "Berawa Beach"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 1,
             "tags": "Strand, Ontspannen, Uitzichtpunt",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.71689148649, 115.168452027",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -217,11 +217,11 @@
                 "src": "/assets/activities/canggu/love-anchor.jpeg",
                 "alt": "Love Anchor"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Cultuur",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.65186956429, 115.134032971",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -231,11 +231,11 @@
                 "src": "/assets/activities/canggu/finns-beach-club.jpeg",
                 "alt": "Finn's Beach Club"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 3,
             "tags": "Wateractiviteit, Ontspannen, Uitgaan",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.66694686214, 115.13934195",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -245,11 +245,11 @@
                 "src": "/assets/activities/canggu/la-brisa.webp",
                 "alt": "La Brisa"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 2,
             "tags": "Cultuur, Wateractiviteit, Ontspannen",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.65451284916, 115.12490565",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -259,11 +259,11 @@
                 "src": "/assets/activities/canggu/the-lawn.webp",
                 "alt": "The Lawn"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 3,
             "tags": "Wateractiviteit, Ontspannen, Uitgaan",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.65848, 115.12977",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -273,11 +273,11 @@
                 "src": "/assets/activities/canggu/la-sol.jpeg",
                 "alt": "La Sol"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Wateractiviteit, Ontspannen",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.658221, 115.0975642",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -287,11 +287,11 @@
                 "src": "/assets/activities/canggu/old-mans.jpeg",
                 "alt": "Old Man's"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 2,
             "tags": "Uitgaan",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.6590615, 115.1204619",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -301,11 +301,11 @@
                 "src": "/assets/activities/canggu/sandbar.jpeg",
                 "alt": "Sandbar"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Strand, Uitgaan",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.6594479, 115.1200184",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -315,11 +315,11 @@
                 "src": "/assets/activities/canggu/black-sand.jpeg",
                 "alt": "Black Sand Brewery"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Uitgaan",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.6455313, 115.1309366",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -329,25 +329,25 @@
                 "src": "/assets/activities/canggu/zycle.jpeg",
                 "alt": "Zycle"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Sport, Actief",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.6601459, 115.1231741",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
             "id": 24,
-            "name": "Finn's Waterpark",
+            "name": "Splash Waterpark",
             "image": {
-                "src": "/assets/activities/canggu/finns-waterpark.jpeg",
-                "alt": "Finn's Waterpark"
+                "src": "/assets/activities/canggu/splash-waterpark.jpeg",
+                "alt": "Splash Waterpark"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Wateractiviteit, Kinderen",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.6625576, 115.1376497",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -357,11 +357,11 @@
                 "src": "/assets/activities/canggu/tonic-spa.jpeg",
                 "alt": "Tonic Spa"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Cultuur, Ontspannen",
             "location": "Canggu",
-            "coordinates": "",
+            "coordinates": "-8.6519242, 115.1184521",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -371,11 +371,11 @@
                 "src": "/assets/activities/ubud/kayon-jungle-resort.jpeg",
                 "alt": "Kayon Jungle Resort"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 3,
             "tags": "Natuur, Wateractiviteit, Ontspannen",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.4226119, 115.2648882",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -385,11 +385,11 @@
                 "src": "/assets/activities/ubud/campuhan-walk.jpeg",
                 "alt": "Campuhan Walk"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 1,
             "tags": "Natuur, Actief",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.5035805, 115.2444582",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -399,11 +399,11 @@
                 "src": "/assets/activities/ubud/ubud-market.jpeg",
                 "alt": "Ubud Market"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Cultuur",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.5035782, 115.2135582",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -413,11 +413,11 @@
                 "src": "/assets/activities/ubud/tegalalang.webp",
                 "alt": "Tegalalang"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 2,
             "tags": "Natuur, Uitzichtpunt, Actief",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.4317111, 115.2690033",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -427,11 +427,11 @@
                 "src": "/assets/activities/ubud/jatiluwih.jpg",
                 "alt": "Jatiluwih"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 1,
             "tags": "Natuur",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.3703099, 115.1210723",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -441,11 +441,11 @@
                 "src": "/assets/activities/ubud/mount-batur.jpeg",
                 "alt": "Mount Batur"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 3,
             "tags": "Natuur, Uitzichtpunt, Actief",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.2401276, 115.3362947",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -455,11 +455,11 @@
                 "src": "/assets/activities/ubud/gunung-kawi.jpeg",
                 "alt": "Gunung Kawi"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 2,
             "tags": "Cultuur, Actief",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.4046433, 115.2847056",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -469,11 +469,11 @@
                 "src": "/assets/activities/ubud/tirta-empul.jpeg",
                 "alt": "Tirta Empul"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 2,
             "tags": "Cultuur, Wateractiviteit, Kinderen",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.4157037, 115.3050044",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -483,11 +483,11 @@
                 "src": "/assets/activities/ubud/tegenungan.webp",
                 "alt": "Tegenungan"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 1,
             "tags": "Natuur, Waterval",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.575362, 115.2786602",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -497,11 +497,11 @@
                 "src": "/assets/activities/ubud/monkey-forest.jpeg",
                 "alt": "Monkey Forest"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 2,
             "tags": "Cultuur, Natuur, Dieren",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.5192232, 115.2505587",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -511,11 +511,11 @@
                 "src": "/assets/activities/ubud/manuaba.jpeg",
                 "alt": "Manuaba"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Natuur, Waterval",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.4466883, 115.2797266",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -525,11 +525,11 @@
                 "src": "/assets/activities/ubud/bali-zoo.jpeg",
                 "alt": "Bali Zoo"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 2,
             "tags": "Dieren, Kinderen",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.5912637, 115.2556164",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -539,11 +539,11 @@
                 "src": "/assets/activities/ubud/jungle-fish.jpeg",
                 "alt": "Jungle Fish Bar"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Natuur, Wateractiviteit, Ontspannen",
             "location": "Ubud",
-            "coordinates": "",
+            "coordinates": "-8.4789412, 115.2505593",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -553,11 +553,11 @@
                 "src": "/assets/activities/uluwatu/uluwatu-tempel.jpeg",
                 "alt": "Uluwatu Tempel"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 2,
             "tags": "Cultuur, Kinderen",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.8293566, 115.0800222",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -567,11 +567,11 @@
                 "src": "/assets/activities/uluwatu/single-fin.jpeg",
                 "alt": "Single Fin"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 3,
             "tags": "Ontspannen, Uitzichtpunt",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.8149718, 115.0785959",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -581,11 +581,11 @@
                 "src": "/assets/activities/uluwatu/balangan-beach.jpeg",
                 "alt": "Balangan Beach"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 1,
             "tags": "Strand, Uitzichtpunt",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.792266, 115.1182614",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -595,11 +595,11 @@
                 "src": "/assets/activities/uluwatu/nyang-nyang.jpeg",
                 "alt": "Nyang-Nyang"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 1,
             "tags": "Strand, Kinderen",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.8391612, 115.0522175",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -609,11 +609,11 @@
                 "src": "/assets/activities/uluwatu/karang-boma.jpeg",
                 "alt": "Karang Boma Cliff"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Natuur, Uitzichtpunt",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.8345365, 115.0774254",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -623,11 +623,11 @@
                 "src": "/assets/activities/uluwatu/bingin-beach.jpeg",
                 "alt": "Bingin Beach"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Strand, Actief",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.8057032, 115.1027427",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -637,11 +637,11 @@
                 "src": "/assets/activities/uluwatu/rock-bar.jpeg",
                 "alt": "The Rock Bar"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 3,
             "tags": "Ontspannen, Uitzichtpunt, Uitgaan",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.7842393, 115.1281715",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -651,11 +651,11 @@
                 "src": "/assets/activities/uluwatu/suluban-beach.jpeg",
                 "alt": "Suluban Beach"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Strand, Actief",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.8159592, 115.0779714",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -665,11 +665,11 @@
                 "src": "/assets/activities/uluwatu/surfen.jpeg",
                 "alt": "Surfen"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Sport, Wateractiviteit, Actief",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.7924376, 115.1205515",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -679,11 +679,11 @@
                 "src": "/assets/activities/uluwatu/ulu-cliffhouse.jpeg",
                 "alt": "Ulu Cliffhouse"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 2,
             "tags": "Ontspannen, Uitzichtpunt",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.811264, 115.0738714",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -693,11 +693,11 @@
                 "src": "/assets/activities/uluwatu/pantai-tegal-wangi.jpeg",
                 "alt": "Pantai Tegal Wangi"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Strand, Ontspannen, Kinderen",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.781198, 115.1050053",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -707,11 +707,11 @@
                 "src": "/assets/activities/uluwatu/laniakea-spa.jpeg",
                 "alt": "Laniakea Spa"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Cultuur, Ontspannen",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.8139894, 115.1006203",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -721,11 +721,11 @@
                 "src": "/assets/activities/uluwatu/dreamland-beach.webp",
                 "alt": "Dreamland Beach"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 2,
+            "price": 1,
             "tags": "Strand, Kinderen",
             "location": "Uluwatu",
-            "coordinates": "",
+            "coordinates": "-8.8017397, 115.1059739",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -735,11 +735,11 @@
                 "src": "/assets/activities/amed/jemeluk-bay.jpeg",
                 "alt": "Jemeluk Bay"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Wateractiviteit, Snorkelen",
             "location": "Amed",
-            "coordinates": "",
+            "coordinates": "-8.3381415, 115.6190963",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -749,11 +749,11 @@
                 "src": "/assets/activities/amed/bukit-cinta.jpeg",
                 "alt": "Bukit Cinta"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Natuur, Uitzichtpunt",
             "location": "Amed",
-            "coordinates": "",
+            "coordinates": "-8.426259, 115.5985012",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -763,11 +763,11 @@
                 "src": "/assets/activities/amed/yoga.jpeg",
                 "alt": "Yoga"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Sport, Ontspannen",
             "location": "Amed",
-            "coordinates": "",
+            "coordinates": "-8.3386401, 115.6521301",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -777,11 +777,11 @@
                 "src": "/assets/activities/amed/local-fishing.jpeg",
                 "alt": "Lokaal vissen"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Cultuur, Dieren, Kinderen",
             "location": "Amed",
-            "coordinates": "",
+            "coordinates": "-8.3354369, 115.6098378",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -791,11 +791,11 @@
                 "src": "/assets/activities/amed/movie-night.jpg",
                 "alt": "Movie night"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Ontspannen, Kinderen",
             "location": "Amed",
-            "coordinates": "",
+            "coordinates": "-8.3386401, 115.6521301",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -805,11 +805,11 @@
                 "src": "/assets/activities/amed/tirta-gangga.jpeg",
                 "alt": "Tirta Gangga"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 3,
+            "price": 2,
             "tags": "Cultuur, Wateractiviteit, Kinderen",
             "location": "Amed",
-            "coordinates": "",
+            "coordinates": "-8.4123472, 115.5769922",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -819,11 +819,11 @@
                 "src": "/assets/activities/amed/sunset-point.jpeg",
                 "alt": "Sunset Point"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 2,
             "tags": "Ontspannen, Uitzichtpunt",
             "location": "Amed",
-            "coordinates": "",
+            "coordinates": "-8.3379177, 115.6526852",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -833,11 +833,11 @@
                 "src": "/assets/activities/amed/uss-liberty-wreck.jpeg",
                 "alt": "USS Liberty Wreck"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Snorkelen, Dieren, Actief",
             "location": "Amed",
-            "coordinates": "",
+            "coordinates": "-8.2793361, 115.5661918",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
@@ -847,11 +847,11 @@
                 "src": "/assets/activities/amed/japanese-shipwreck.jpeg",
                 "alt": "Japanese Shipwreck"
             },
-            "tourism": "",
-            "price": "",
+            "tourism": 1,
+            "price": 1,
             "tags": "Snorkelen, Dieren, Actief",
             "location": "Amed",
-            "coordinates": "",
+            "coordinates": "-8.3646512, 115.6903589",
             "details": "A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.//A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         }
     ]
