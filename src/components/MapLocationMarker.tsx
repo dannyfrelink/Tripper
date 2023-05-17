@@ -16,7 +16,7 @@ const MapLocationMarker = ({
         latitude={latitude}
         longitude={longitude}
     >
-        <div className='bg-secondary-dark h-[22px] w-[22px] p-1 shadow-subtle rounded-2xl'>
+        <div className='bg-secondary-dark h-6 w-6 p-1 shadow-subtle rounded-2xl'>
             <Image
                 src={`/assets/activity-icons/icon-${icon}.png`}
                 alt={`${icon} icon`}
