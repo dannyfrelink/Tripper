@@ -14,6 +14,7 @@ interface Activity {
     tourism: number,
     price: number,
     tags: string,
+    icon: string,
     location: string,
     coordinates: string,
     details: string
@@ -42,9 +43,9 @@ const MapLocation = ({
                 location === 'canggu' ?
                     {
                         // Lat, Long & Zoom of Canggu
-                        latitude: -8.65,
-                        longitude: 115.13,
-                        zoom: 10.5
+                        latitude: -8.643,
+                        longitude: 115.117,
+                        zoom: 11.3
                     } :
                 location === 'uluwatu' ?
                     {
@@ -84,6 +85,7 @@ const MapLocation = ({
                         <MapLocationMarker
                             latitude={Number(latLong[0])}
                             longitude={Number(latLong[1])}
+                            icon={activity.icon}
                         />
                     )
                 })
