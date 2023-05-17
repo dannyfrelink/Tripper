@@ -28,12 +28,12 @@ export default function Overview({location}: any) {
         daySchedule = storage[`${filteredActivities[0].location}-content`];
         const dayScheduleClean = daySchedule.replaceAll(':','').replaceAll('-','');
 
-        for (let i = 1; i < daysForLocation; i++) {
-            const scheduleSplit1 = dayScheduleClean.split(`Dag ${i}`);
-            const scheduleSplit2 = scheduleSplit1[1].split(`Dag ${i + 1}`);
+        // for (let i = 1; i < daysForLocation; i++) {
+        //     const scheduleSplit1 = dayScheduleClean.split(`Dag ${i}`);
+        //     const scheduleSplit2 = scheduleSplit1[1].split(`Dag ${i + 1}`);
 
-            daySchedulePerDay[`Dag ${i + 1}`] = scheduleSplit2[0].replaceAll(i, i+1)
-        }
+        //     daySchedulePerDay[`Dag ${i + 1}`] = scheduleSplit2[0].replaceAll(i, i+1)
+        // }
     }
 
     useEffect(() => {
@@ -58,14 +58,14 @@ export default function Overview({location}: any) {
                 <h2 className='font-semibold text-lg'>
                     {activityLoad && filteredActivities[0].location} {activityLoad && daysForLocation} dagen
                 </h2>
-
+{/* 
                 {
                     activityLoad &&
                         <DaySchedule
                             location={filteredActivities[0].location}
                             daySchedulePerDay={daySchedulePerDay}
                         />
-                }
+                } */}
             </div>
         </main>
     )

@@ -50,22 +50,22 @@ const MapLocation = ({
                 location === 'uluwatu' ?
                     {
                         // Lat, Long & Zoom of Uluwatu
-                        latitude: -8.82,
-                        longitude: 115.147,
-                        zoom: 11
+                        latitude: -8.812,
+                        longitude: 115.12,
+                        zoom: 10.9
                     } :
                 location === 'ubud' ?
                     {
                         // Lat, Long & Zoom of Ubud
-                        latitude: -8.48,
+                        latitude: -8.45,
                         longitude: 115.25,
-                        zoom: 10
+                        zoom: 9.5
                     } :
                     {
                         // Lat, Long & Zoom of Amed
-                        latitude: -8.37,
+                        latitude: -8.38,
                         longitude: 115.623,
-                        zoom: 10.5
+                        zoom: 10.35
                     }
             }
             style={{
