@@ -88,7 +88,7 @@ export default function Overview({activities}: any) {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            prompt: `Maak een reisroute voor ${daysInTextPerLocation[location]} dagen met enkel deze activiteiten in lopende tekst: ${activities.join(", ")}. Er mogen geen andere activiteiten bijkomen. Splits de dagen op in aparte alinea's.`
+            prompt: `Maak een reisroute voor ${daysInTextPerLocation[location]} dagen met enkel deze activiteiten in lopende tekst: ${activities.join(", ")}. Er mogen geen andere activiteiten bijkomen. Splits de dagen op in aparte alinea's en begin iedere alinea met welke dag dit is.`
           })
         }).then(res => res.json());
 
