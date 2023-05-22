@@ -8,7 +8,7 @@ import CloudButton from '@/components/CloudButton';
 export default function Home() {
   return (
     <main
-      className='bg-secondary-light h-screen'
+      className='before:absolute before:inset-0 before:bg-secondary-light'
     >
       <div className='h-[570px] w-screen absolute bottom-0'>
         <header className='mx-auto w-44'>
