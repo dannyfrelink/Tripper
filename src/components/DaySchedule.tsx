@@ -20,7 +20,7 @@ const DaySchedule = ({
             </Details>
             {
                 Object.keys(daySchedulePerDay).map(day => 
-                    <Details summary={`${day}: activiteiten`}>
+                    <Details summary={`${day}: activiteiten ${day.toLowerCase()}`}>
                         {daySchedulePerDay[day]}
                     </Details>
                 )
