@@ -77,12 +77,10 @@ export default function Activities({activities}: any) {
     const handleSubmit = (e: any) => {
         // console.log("bli", selectedActivities.length / days)
 
-        if(days && Number(days) >= 7 && Number(days) <= 90) {
+        if(days && Number(days) >= 7 && Number(days) <= 60) {
             if(selectedActivities.length / days < 1 && !activitiesError) {
                 setActivitiesError(true);
                 e.preventDefault();
-
-                console.log("bli 123", activitiesError)
             } else {
                 localStorage.setItem("days", Math.round(days).toString());
             }
@@ -90,7 +88,6 @@ export default function Activities({activities}: any) {
             e.preventDefault();
             setDaysError(true);
         }
-        console.log("bli 12", activitiesError)
     }
 
     const handleChange = (e: any) => {
