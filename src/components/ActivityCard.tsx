@@ -59,37 +59,33 @@ const ActivityCard = ({
                 <h2 className='text-primary-light font-semibold'>{activity.name}</h2>
 
                 <div className='flex justify-between w-10 mt-1'>
-                    {iconCount.map((c, index) => index < activity.tourism ?
-                        <Image
-                            className='scale-110'
-                            src={tourism}
-                            alt="Poppetje icoon"
-                        /> :
-                        <Image
-                            className='scale-110 opacity-30'
-                            src={tourism}
-                            alt="Poppetje icoon"
-                        />
-                    )}
+                    {
+                        iconCount.map((c, index) =>
+                            <Image
+                                key={index}
+                                className={`scale-110 ${index < activity.tourism ? '' : 'opacity-30'}`}
+                                src={tourism}
+                                alt="Poppetje icoon"
+                            />
+                        )
+                    }
                 </div>
 
                 <div className='flex justify-between w-9 ml-0.5 mt-1.5'>
-                    {iconCount.map((c, index) => index < activity.price ?
-                        <Image
-                            className='scale-110'
-                            src={price}
-                            alt="Euro icoon"
-                        /> :
-                        <Image
-                            className='scale-110 opacity-30'
-                            src={price}
-                            alt="Euro icoon"
-                        />
-                    )}
+                    {
+                       iconCount.map((c, index) =>
+                            <Image
+                                key={index}
+                                className={`scale-110 ${index < activity.price ? '' : 'opacity-30'}`}
+                                src={price}
+                                alt="Euro icoon"
+                            />
+                        )
+                    }
                 </div>
 
                 <ul className='min-h-[60px] text-primary-light list-disc list-inside text-sm mt-2'>
-                    {tags.map(tag => <li>{tag}</li>)}
+                    {tags.map((tag, index) => <li key={index}>{tag}</li>)}
                 </ul>
 
                 <a className='block w-fit text-primary-light border-[1px] rounded-md text-xs py-0.5 px-1.5 mt-2' href={`/activities/${activity.id}`}>Meer weten</a>

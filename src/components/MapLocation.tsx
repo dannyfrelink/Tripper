@@ -77,12 +77,13 @@ const MapLocation = ({
             mapStyle="mapbox://styles/mapbox/streets-v11"
         >
             {
-                activities.map(activity => {
+                activities.map((activity, index) => {
                     const coordinates = activity.coordinates;
                     const latLong = coordinates.split(", ");
 
                     return (
                         <MapLocationMarker
+                            key={index}
                             latitude={Number(latLong[0])}
                             longitude={Number(latLong[1])}
                             icon={activity.icon}

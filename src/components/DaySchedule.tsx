@@ -19,8 +19,11 @@ const DaySchedule = ({
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a autem impedit distinctio voluptatum. Voluptatum modi provident molestiae minima necessitatibus. Non, tempore excepturi assumenda architecto sit facilis nesciunt ullam voluptate.
             </Details>
             {
-                Object.keys(daySchedulePerDay).map(day => 
-                    <Details summary={`${day}: activiteiten ${day.toLowerCase()}`}>
+                Object.keys(daySchedulePerDay).map((day, index) => 
+                    <Details
+                        key={index}
+                        summary={`${day}: activiteiten ${day.toLowerCase()}`}
+                    >
                         {daySchedulePerDay[day]}
                     </Details>
                 )

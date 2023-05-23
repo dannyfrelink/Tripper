@@ -14,8 +14,12 @@ const TravelSchedule = ({
             </h3>
 
             <ol className="[&>*]:mt-3 list-decimal list-inside">
-                {Object.keys(daysPerLocation).map(location => 
-                    <a className="block border-b-[1px] w-fit" href={`overview/${location.toLowerCase()}`}>
+                {Object.keys(daysPerLocation).map((location, index) => 
+                    <a 
+                        key={index}
+                        className="block border-b-[1px] w-fit"
+                        href={`overview/${location.toLowerCase()}`}
+                    >
                         <li>
                             {location} ({daysPerLocation[location]} dagen)
                         </li>

@@ -115,11 +115,12 @@ export default function Activities({activities}: any) {
             </div>
 
             <div className='pt-[395px] pb-4'>
-                {activities.map((activity: any) => {
+                {activities.map((activity: any, index: number) => {
                     const tags = activity.tags.split(', ');
                     
                     return tags.includes(activeTab) &&
                         <ActivityCard
+                            key={index}
                             onClick={(id) => handleFavourite(id)}
                             activity={activity}
                         />
