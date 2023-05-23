@@ -76,7 +76,7 @@ export default function Activities({activities}: any) {
     }, [selectedLocations]);
 
     const handleSubmit = (e: any) => {
-        if(days && Number(days) >= 7 && Number(days) <= 90) {
+        if(days && Number(days) >= 7 && Number(days) <= 60) {
             if(selectedActivities.length / days < 1 && !activitiesError) {
                 setActivitiesError(true);
                 e.preventDefault();
