@@ -3,6 +3,7 @@ import Map from '@/components/Map';
 import Tabs from '@/components/Tabs';
 import ActivityCard from '@/components/ActivityCard';
 import DaysInput from '@/components/DaysInput';
+import ActivitiesError from '@/components/ActivitiesError';
 import { useEffect, useState } from 'react';
 
 export default function Activities({activities}: any) {
@@ -75,9 +76,7 @@ export default function Activities({activities}: any) {
     }, [selectedLocations]);
 
     const handleSubmit = (e: any) => {
-        // console.log("bli", selectedActivities.length / days)
-
-        if(days && Number(days) >= 7 && Number(days) <= 60) {
+        if(days && Number(days) >= 7 && Number(days) <= 90) {
             if(selectedActivities.length / days < 1 && !activitiesError) {
                 setActivitiesError(true);
                 e.preventDefault();
@@ -154,29 +153,10 @@ export default function Activities({activities}: any) {
 
             {
                 activitiesError &&
-                    <div className='flex justify-center fixed inset-0 bg-secondary-light text-primary-dark text-center font-medium z-10'>
-                        <div className='w-10/12 m-auto'>
-                            <p>
-                                Er zijn meer dagen doorgegeven dan het aantal geselecteerde activiteiten. Het is gebruikelijk om 1 activiteit per dag te selecteren.
-                            </p>
-                            <div className='flex justify-around w-10/12 mx-auto mt-4'>
-                                <button
-                                    className='block w-fit text-[15px] bg-primary-light border-[1px] border-primary-dark rounded-md mx-auto py-0.5 px-3 shadow-subtle'
-                                    onClick={() => setActivitiesError(false)}
-                                >
-                                    Afbreken
-                                </button>
-
-                                <a
-                                    href='/overview'
-                                    className='block w-fit text-[15px] bg-primary-light border-[1px] border-primary-dark rounded-md mx-auto py-0.5 px-3 shadow-subtle'
-                                    onClick={handleSubmit}
-                                >
-                                    Toch doorgaan
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <ActivitiesError
+                        onClickCancel={() => setActivitiesError(false)}
+                        onClickSubmit={handleSubmit}
+                    />
             }
         </main>
     );
