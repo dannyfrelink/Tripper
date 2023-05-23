@@ -6,7 +6,7 @@ import DaysInput from '@/components/DaysInput';
 import { useEffect, useState } from 'react';
 
 export default function Activities({activities}: any) {
-    const [days, setDays] = useState("");
+    const [days, setDays] = useState();
     const [daysError, setDaysError] = useState(false);
     const [selected, setSelected] = useState(false);
     const selectedActivities: number[] = [];
@@ -75,7 +75,7 @@ export default function Activities({activities}: any) {
 
     const handleSubmit = (e: any) => {
         if(days && Number(days) > 0 && Number(days) <= 30) {
-            localStorage.setItem("days", days);
+            localStorage.setItem("days", Math.round(days).toString());
         } else {
             e.preventDefault();
             setDaysError(true);
@@ -98,7 +98,7 @@ export default function Activities({activities}: any) {
                         setDays(e.target.value);
                         setDaysError(false);
                     }}
-                    days={days}
+                    days={days ? days : ''}
                     daysError={daysError}
                 />
 
