@@ -4,8 +4,23 @@ import infoIcon from '../svg/info-icon.svg';
 import airplaneIcon from '../svg/airplane-icon.svg';
 import illustration from '../svg/illustration.svg';
 import CloudButton from '@/components/CloudButton';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+  const [routeCreated, setRouteCreated] = useState(false);
+
+  if (typeof window !== 'undefined') {
+    const storage = { ... localStorage };
+    const storageArr = Object.keys(storage);
+
+    useEffect(() => {
+      storageArr.map(value =>
+        value.includes('-content') &&
+          setRouteCreated(true)
+      );
+    }, [])
+  }
+
   return (
     <main
       className='before:absolute before:inset-0 before:bg-secondary-light'
@@ -25,12 +40,12 @@ export default function Home() {
 
         <CloudButton
           className='bottom-[350px] left-10'
-          href='activities'
+          href={routeCreated ? 'overview' : 'activities'}
           iconClass='left-2'
           icon={airplaneIcon}
           iconAlt='Vliegtuig'
-          textClass='left-[35px]'
-          text='Reisroute samenstellen'
+          textClass={`${routeCreated ? 'left-[50px]' : 'left-[35px]'}`}
+          text={routeCreated ? 'Reisroute bekijken' : 'Reisroute samenstellen'}
         />
 
         <CloudButton
