@@ -7,6 +7,7 @@ import pencilIcon from "../svg/pencil.svg";
 
 interface HeaderProps {
     airplane?: boolean;
+    airplaneHref?: string;
     info?: boolean;
     rightAlt: string;
     check?: boolean;
@@ -19,6 +20,7 @@ interface HeaderProps {
 
 const Header = ({
     airplane = false,
+    airplaneHref,
     info = false,
     rightAlt = '',
     check = false,
@@ -67,10 +69,10 @@ const Header = ({
 
         {
             airplane || info ?
-                <a href={airplane ? "/activities" : "/info"} className='right-7 absolute'>
+                <a href={airplane ? airplaneHref : "/info"} className='right-7 absolute'>
                     <Image
                         className='scale-[1.3]'
-                        src={airplane ? airplaneIcon : info && infoIcon}
+                        src={airplane ? airplaneIcon : infoIcon}
                         alt={rightAlt}
                     />
                 </a>
