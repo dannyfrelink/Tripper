@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import loadingIcon from '../svg/loading.svg';
 import Details from './Details';
 
 interface DayScheduleProps {
@@ -13,6 +11,30 @@ const DaySchedule = ({
     location,
     daySchedulePerDay
 }: DayScheduleProps) => {
+    let buttonLocations: string[] = [];
+
+    if (typeof window !== 'undefined') {
+        const storage = { ... localStorage };
+        // const storageArr = Object.keys(storage);
+        const daysPerLocation = JSON.parse(storage["daysPerLocation"]);
+        let locations: string[] = [];
+        Object.keys(daysPerLocation).map(location => locations.push(location))
+
+        let buttonLocationsIndex: number[] = [];
+        locations.map((loc, index) =>
+            loc === location &&
+                buttonLocationsIndex.push(index - 1) + 
+                buttonLocationsIndex.push(index + 1)
+        )
+
+        buttonLocationsIndex.map((index, i) =>
+            index >= 0 && index < locations.length &&
+                buttonLocations.push(`${i === 0 ? 'left' : 'right'}: ${locations[index]}`)
+        )
+    }
+
+    console.log("bli 23", buttonLocations)
+
     return (
         <div className='[&>*:first-of-type]:mt-5 [&>*]:mt-3'>
             <Details summary={`Dag 1: aankomst ${location}`}>
@@ -28,6 +50,25 @@ const DaySchedule = ({
                     </Details>
                 )
             }
+
+            <div className='flex'>
+                {
+                    buttonLocations.map((location, index) => {
+                        const indicator = location.split(': ')[0];
+                        const loc = location.split(': ')[1];
+
+                        return (
+                        <a
+                            key={index}
+                            className={`block w-fit text-primary-light border-[1px] rounded-md text-sm py-0.5 px-1.5 mt-3 ${indicator === 'left' ? 'mr-auto' : 'ml-auto'}`}
+                            href={`/overview/${loc.toLowerCase()}`}
+                        >
+                            {indicator === 'left' && '<-'} {loc} {indicator === 'right' && '->'}
+                        </a>
+                        )
+                    })
+                }
+            </div>
         </div>
     );
 }
