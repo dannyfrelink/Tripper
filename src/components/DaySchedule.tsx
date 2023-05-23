@@ -15,7 +15,6 @@ const DaySchedule = ({
 
     if (typeof window !== 'undefined') {
         const storage = { ... localStorage };
-        // const storageArr = Object.keys(storage);
         const daysPerLocation = JSON.parse(storage["daysPerLocation"]);
         let locations: string[] = [];
         Object.keys(daysPerLocation).map(location => locations.push(location))
@@ -32,8 +31,6 @@ const DaySchedule = ({
                 buttonLocations.push(`${i === 0 ? 'left' : 'right'}: ${locations[index]}`)
         )
     }
-
-    console.log("bli 23", buttonLocations)
 
     return (
         <div className='[&>*:first-of-type]:mt-5 [&>*]:mt-3'>
