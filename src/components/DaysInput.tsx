@@ -31,7 +31,7 @@ const DaysInput = ({
 
             {
                 daysError &&
-                    <p className='text-red-500 text-xs ml-2'>Getal van 1 t/m 60</p>
+                    <p className='text-red-500 text-xs ml-2'>Getal van 7 t/m 60</p>
             }
         </div>
     );

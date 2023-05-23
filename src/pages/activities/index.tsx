@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 export default function Activities({activities}: any) {
     const [days, setDays] = useState();
     const [daysError, setDaysError] = useState(false);
+    const [activitiesError, setActivitiesError] = useState(false);
     const [selected, setSelected] = useState(false);
     const selectedActivities: number[] = [];
     const tabs: string[] = [
@@ -74,12 +75,42 @@ export default function Activities({activities}: any) {
     }, [selectedLocations]);
 
     const handleSubmit = (e: any) => {
-        if(days && Number(days) > 0 && Number(days) <= 30) {
-            localStorage.setItem("days", Math.round(days).toString());
+        // console.log("bli", selectedActivities.length / days)
+
+        if(days && Number(days) >= 7 && Number(days) <= 90) {
+            if(selectedActivities.length / days < 1 && !activitiesError) {
+                setActivitiesError(true);
+                e.preventDefault();
+
+                console.log("bli 123", activitiesError)
+            } else {
+                localStorage.setItem("days", Math.round(days).toString());
+            }
         } else {
             e.preventDefault();
             setDaysError(true);
         }
+        console.log("bli 12", activitiesError)
+    }
+
+    const handleChange = (e: any) => {
+        setDays(e.target.value);
+        setDaysError(false);
+
+        // localStorage.getItem('Canggu-content') !== null &&
+        //     localStorage.removeItem('Canggu-content');
+
+        // localStorage.getItem('Ubud-content') !== null &&
+        //     localStorage.removeItem('Ubud-content');
+
+        // localStorage.getItem('Amed-content') !== null &&
+        //     localStorage.removeItem('Amed-content');
+
+        // localStorage.getItem('Nusa-content') !== null &&
+        //     localStorage.removeItem('Nusa-content');
+
+        // localStorage.getItem('Uluwatu-content') !== null &&
+        //     localStorage.removeItem('Uluwatu-content');
     }
     
     return (
@@ -94,10 +125,7 @@ export default function Activities({activities}: any) {
                 />
 
                 <DaysInput 
-                    onChange={(e) => {
-                        setDays(e.target.value);
-                        setDaysError(false);
-                    }}
+                    onChange={(e) => handleChange(e)}
                     days={days ? days : ''}
                     daysError={daysError}
                 />
@@ -126,6 +154,33 @@ export default function Activities({activities}: any) {
                         />
                 })}
             </div>
+
+            {
+                activitiesError &&
+                    <div className='flex justify-center fixed inset-0 bg-secondary-light text-primary-dark text-center font-medium z-10'>
+                        <div className='w-10/12 m-auto'>
+                            <p>
+                                Er zijn meer dagen doorgegeven dan het aantal geselecteerde activiteiten. Het is gebruikelijk om 1 activiteit per dag te selecteren.
+                            </p>
+                            <div className='flex justify-around w-10/12 mx-auto mt-4'>
+                                <button
+                                    className='block w-fit text-[15px] bg-primary-light border-[1px] border-primary-dark rounded-md mx-auto py-0.5 px-3 shadow-subtle'
+                                    onClick={() => setActivitiesError(false)}
+                                >
+                                    Afbreken
+                                </button>
+
+                                <a
+                                    href='/overview'
+                                    className='block w-fit text-[15px] bg-primary-light border-[1px] border-primary-dark rounded-md mx-auto py-0.5 px-3 shadow-subtle'
+                                    onClick={handleSubmit}
+                                >
+                                    Toch doorgaan
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            }
         </main>
     );
 }
