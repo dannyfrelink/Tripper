@@ -74,7 +74,7 @@ export default function Activities({activities}: any) {
     }, [selectedLocations]);
 
     const handleSubmit = (e: any) => {
-        if(days && Number(days) > 0 && Number(days) <= 60) {
+        if(days && Number(days) > 0 && Number(days) <= 30) {
             localStorage.setItem("days", days);
         } else {
             e.preventDefault();
