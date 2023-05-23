@@ -93,20 +93,20 @@ export default function Activities({activities}: any) {
         setDays(e.target.value);
         setDaysError(false);
 
-        // localStorage.getItem('Canggu-content') !== null &&
-        //     localStorage.removeItem('Canggu-content');
+        localStorage.getItem('Canggu-content') !== null &&
+            localStorage.removeItem('Canggu-content');
 
-        // localStorage.getItem('Ubud-content') !== null &&
-        //     localStorage.removeItem('Ubud-content');
+        localStorage.getItem('Ubud-content') !== null &&
+            localStorage.removeItem('Ubud-content');
 
-        // localStorage.getItem('Amed-content') !== null &&
-        //     localStorage.removeItem('Amed-content');
+        localStorage.getItem('Amed-content') !== null &&
+            localStorage.removeItem('Amed-content');
 
-        // localStorage.getItem('Nusa-content') !== null &&
-        //     localStorage.removeItem('Nusa-content');
+        localStorage.getItem('Nusa-content') !== null &&
+            localStorage.removeItem('Nusa-content');
 
-        // localStorage.getItem('Uluwatu-content') !== null &&
-        //     localStorage.removeItem('Uluwatu-content');
+        localStorage.getItem('Uluwatu-content') !== null &&
+            localStorage.removeItem('Uluwatu-content');
     }
     
     return (
