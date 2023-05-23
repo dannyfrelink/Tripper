@@ -2,6 +2,7 @@ import Details from './Details';
 
 interface DayScheduleProps {
     location: string;
+    locationArrival: string;
     daySchedulePerDay: {
         [day: string]: string
     };
@@ -9,6 +10,7 @@ interface DayScheduleProps {
 
 const DaySchedule = ({
     location,
+    locationArrival,
     daySchedulePerDay
 }: DayScheduleProps) => {
     let buttonLocations: string[] = [];
@@ -35,7 +37,7 @@ const DaySchedule = ({
     return (
         <div className='[&>*:first-of-type]:mt-5 [&>*]:mt-3'>
             <Details summary={`Dag 1: aankomst ${location}`}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a autem impedit distinctio voluptatum. Voluptatum modi provident molestiae minima necessitatibus. Non, tempore excepturi assumenda architecto sit facilis nesciunt ullam voluptate.
+                {locationArrival}
             </Details>
             {
                 Object.keys(daySchedulePerDay).map((day, index) => 

@@ -7,7 +7,7 @@ interface ObjectTypeText {
     [location: string]: string;
 } 
 
-export default function Overview({location}: any) {
+export default function Overview({location, locationArrival}: any) {
     const [activityLoad, setActivityLoad] = useState(false);
     let filteredActivities = [];
     let daysForLocation;
@@ -63,6 +63,7 @@ export default function Overview({location}: any) {
                     activityLoad &&
                         <DaySchedule
                             location={filteredActivities[0].location}
+                            locationArrival={locationArrival}
                             daySchedulePerDay={daySchedulePerDay}
                         />
                 }
@@ -88,18 +89,23 @@ export async function getStaticPaths() {
     return { paths, fallback: false }
 }
 
-// Filter out current activity
+// Filter out current activity & fetch locationArrival JSON
 export async function getStaticProps({params}: any) {
     const filePath = path.join(process.cwd(), 'activities.json');
     const jsonData = await fsPromises.readFile(filePath);
     const json = JSON.parse(jsonData.toString());
     const activities = json.attractions;
 
+    const filePathArrival = path.join(process.cwd(), 'locationArrival.json');
+    const jsonDataArrival = await fsPromises.readFile(filePathArrival);
+    const jsonArrival = JSON.parse(jsonDataArrival.toString());
+
     return {
         props: {
             location: activities.filter((activity: any) => 
                 activity.location.toLowerCase() === params.location
-            )
+            ),
+            locationArrival: jsonArrival[params.location]
         }
     }
 }
