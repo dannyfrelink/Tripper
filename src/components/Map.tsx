@@ -131,13 +131,10 @@ const Map = ({
                             id="lineLayerOne"
                             type="line"
                             source="my-data"
-                            layout={{
-                            "line-join": "round",
-                            "line-cap": "round"
-                            }}
                             paint={{
-                            "line-color": "rgba(3, 170, 238, 0.5)",
-                            "line-width": 5
+                                "line-color": "#1D4045",
+                                "line-width": 1.5,
+                                "line-dasharray": [1.5, 1.5]
                             }}
                         />
                     </Source>
@@ -150,13 +147,10 @@ const Map = ({
                             id="lineLayerTwo"
                             type="line"
                             source="my-data"
-                            layout={{
-                            "line-join": "round",
-                            "line-cap": "round"
-                            }}
                             paint={{
-                            "line-color": "rgba(3, 170, 238, 0.5)",
-                            "line-width": 5
+                                "line-color": "#1D4045",
+                                "line-width": 1.5,
+                                "line-dasharray": [1.5, 1.5]
                             }}
                         />
                     </Source>
@@ -169,13 +163,10 @@ const Map = ({
                             id="lineLayerThree"
                             type="line"
                             source="my-data"
-                            layout={{
-                            "line-join": "round",
-                            "line-cap": "round"
-                            }}
                             paint={{
-                            "line-color": "rgba(3, 170, 238, 0.5)",
-                            "line-width": 5
+                                "line-color": "#1D4045",
+                                "line-width": 1.5,
+                                "line-dasharray": [1.5, 1.5]
                             }}
                         />
                     </Source>
@@ -188,13 +179,10 @@ const Map = ({
                             id="lineLayerFour"
                             type="line"
                             source="my-data"
-                            layout={{
-                            "line-join": "round",
-                            "line-cap": "round"
-                            }}
                             paint={{
-                            "line-color": "rgba(3, 170, 238, 0.5)",
-                            "line-width": 5
+                                "line-color": "#1D4045",
+                                "line-width": 1.5,
+                                "line-dasharray": [1.5, 1.5]
                             }}
                         />
                     </Source>
