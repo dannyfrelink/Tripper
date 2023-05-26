@@ -8,9 +8,9 @@ interface MapProps {
 
 interface ObjectType {
     [location: string]: number;
-  } 
+}
 
-interface coordinatesProps {
+interface CoordinatesProps {
     [loc: string]: {
         latitude: number;
         longitude: number;
@@ -24,7 +24,7 @@ const Map = ({
     const map: ObjectType = { Canggu: 1, Ubud: 2, Amed: 3, Nusa: 4, Uluwatu: 5 };
     uniqueLocations.sort((x, y) => map[x] - map[y]);
 
-    const coordinates: coordinatesProps = {
+    const coordinates: CoordinatesProps = {
         Canggu: {
             latitude: -8.58,
             longitude: 115.05
@@ -109,62 +109,6 @@ const Map = ({
           ]
         }
     }
-
-    // lineData.map((data: number[]) => {
-    //     console.log("bli 56", data)
-    // });
-    
-    // console.log("bli 23", lineData)
-
-    // console.log("bli", uniqueLocations)
-
-    // const dataCanUb = {
-        // type: "Feature",
-        // properties: {},
-        // geometry: {
-        //   type: "LineString",
-        //   coordinates: [
-        //     [115.05, -8.58],
-        //     [115.30, -8.45]
-        //   ]
-        // }
-    // };
-
-    // const dataUbAm = {
-    //     type: "Feature",
-    //     properties: {},
-    //     geometry: {
-    //       type: "LineString",
-    //       coordinates: [
-    //         [115.30, -8.45],
-    //         [115.55, -8.30]
-    //       ]
-    //     }
-    // };
-
-    // const dataAmNu = {
-    //     type: "Feature",
-    //     properties: {},
-    //     geometry: {
-    //       type: "LineString",
-    //       coordinates: [
-    //         [115.55, -8.30],
-    //         [115.52, -8.73]
-    //       ]
-    //     }
-    // };
-
-    // const dataNuUl = {
-    //     type: "Feature",
-    //     properties: {},
-    //     geometry: {
-    //       type: "LineString",
-    //       coordinates: [
-    //         [115.52, -8.73],
-    //         [115.15, -8.80]
-    //       ]
-    //     }
-    // };
 
     return (
         <ReactMap
@@ -268,24 +212,6 @@ const Map = ({
                 />
             }
 
-
-
-            {/* <Source id="polylineLayer" type="geojson" data={dataCanUb}>
-                <Layer
-                    id="lineLayer"
-                    type="line"
-                    source="my-data"
-                    layout={{
-                    "line-join": "round",
-                    "line-cap": "round"
-                    }}
-                    paint={{
-                    "line-color": "rgba(3, 170, 238, 0.5)",
-                    "line-width": 5
-                    }}
-                />
-            </Source> */}
-
             {locations.includes('Ubud') &&
                 <MapMarker
                     // Lat & Long of Ubud
@@ -295,22 +221,6 @@ const Map = ({
                     name='Ubud'
                 />
             }
-
-            {/* <Source id="polylineLayer" type="geojson" data={dataUbAm}>
-                <Layer
-                    id="lineLayer"
-                    type="line"
-                    source="my-data"
-                    layout={{
-                    "line-join": "round",
-                    "line-cap": "round"
-                    }}
-                    paint={{
-                    "line-color": "rgba(3, 170, 238, 0.5)",
-                    "line-width": 5
-                    }}
-                />
-            </Source> */}
 
             {locations.includes('Amed') &&
                 <MapMarker
