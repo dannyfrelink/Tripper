@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface ActivityDetailsContentProps {
     activity: {
         id: number,
@@ -25,7 +27,9 @@ const ActivityDetailsContent = ({
             <p key={index}>{paragraph}</p>
         )}
 
-        <a className='block w-fit text-[15px] border-[1px] border-primary-dark rounded-md py-0.5 px-1.5 mt-4' href="/activities">Verder zoeken</a>
+        <Link className='block w-fit text-[15px] border-[1px] border-primary-dark rounded-md py-0.5 px-1.5 mt-4' href="/activities">
+            Verder zoeken
+        </Link>
     </div>
     );
 }

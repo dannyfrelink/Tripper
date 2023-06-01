@@ -4,6 +4,7 @@ import heartBlue from '../svg/heart-blue.svg';
 import tourism from '../svg/tourism.svg';
 import price from '../svg/price.svg';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 interface ActivityCardProps {
     activity: {
@@ -88,7 +89,13 @@ const ActivityCard = ({
                     {tags.map((tag, index) => <li key={index}>{tag}</li>)}
                 </ul>
 
-                <a className='block w-fit text-primary-light border-[1px] rounded-md text-xs py-0.5 px-1.5 mt-2' href={`/activities/${activity.id}`}>Meer weten</a>
+                <Link
+                    href={`/activities/${activity.id}`}
+                    className='block w-fit text-primary-light border-[1px] rounded-md text-xs py-0.5 px-1.5 mt-2'
+                    replace
+                >
+                    Meer weten
+                </Link>
             </div>
 
             <div 

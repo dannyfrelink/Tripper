@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Details from './Details';
 
 interface DayScheduleProps {
@@ -57,13 +58,13 @@ const DaySchedule = ({
                         const loc = location.split(': ')[1];
 
                         return (
-                        <a
+                        <Link
                             key={index}
                             className={`block w-fit text-primary-light border-[1px] rounded-md text-sm py-0.5 px-1.5 mt-3 ${indicator === 'left' ? 'mr-auto' : 'ml-auto'}`}
                             href={`/overview/${loc.toLowerCase()}`}
                         >
                             {indicator === 'left' && '<-'} {loc} {indicator === 'right' && '->'}
-                        </a>
+                        </Link>
                         )
                     })
                 }

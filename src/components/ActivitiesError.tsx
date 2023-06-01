@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface ActivitiesErrorProps {
     onClickCancel: () => void;
     onClickSubmit: (e:any) => void;
@@ -21,13 +23,13 @@ const ActivitiesError = ({
                         Afbreken
                     </button>
 
-                    <a
+                    <Link 
                         href='/overview'
                         className='block w-fit text-[15px] bg-primary-light border-[1px] border-primary-dark rounded-md mx-auto py-0.5 px-3 shadow-subtle'
                         onClick={onClickSubmit}
                     >
                         Toch doorgaan
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

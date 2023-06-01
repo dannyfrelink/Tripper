@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface TravelScheduleProps {
     storedDaysValue: string;
     daysPerLocation: {[key: string]: number};
@@ -15,7 +17,7 @@ const TravelSchedule = ({
 
             <ol className="[&>*]:mt-3 list-decimal list-inside">
                 {Object.keys(daysPerLocation).map((location, index) => 
-                    <a 
+                    <Link
                         key={index}
                         className="block border-b-[1px] w-fit"
                         href={`overview/${location.toLowerCase()}`}
@@ -23,7 +25,7 @@ const TravelSchedule = ({
                         <li>
                             {location} ({daysPerLocation[location]} dagen)
                         </li>
-                    </a>
+                    </Link>
                 )}
             </ol>
         </div>
