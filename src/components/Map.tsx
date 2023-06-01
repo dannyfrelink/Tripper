@@ -61,10 +61,10 @@ const Map = ({
     const codeFour = lineData.length > 4 && [lineData[3], lineData[4]];
 
     const dataOne = codeOne && {
-        type: "Feature",
+        type: "Feature" as const,
         properties: {},
         geometry: {
-          type: "LineString",
+          type: "LineString" as const,
           coordinates: [
             codeOne[0],
             codeOne[1]
@@ -73,10 +73,10 @@ const Map = ({
     }
 
     const dataTwo = codeTwo && {
-        type: "Feature",
+        type: "Feature" as const,
         properties: {},
         geometry: {
-          type: "LineString",
+          type: "LineString" as const,
           coordinates: [
             codeTwo[0],
             codeTwo[1]
@@ -85,10 +85,10 @@ const Map = ({
     }
 
     const dataThree = codeThree && {
-        type: "Feature",
+        type: "Feature" as const,
         properties: {},
         geometry: {
-          type: "LineString",
+          type: "LineString" as const,
           coordinates: [
             codeThree[0],
             codeThree[1]
@@ -97,10 +97,10 @@ const Map = ({
     }
 
     const dataFour = codeFour && {
-        type: "Feature",
+        type: "Feature" as const,
         properties: {},
         geometry: {
-          type: "LineString",
+          type: "LineString" as const,
           coordinates: [
             codeFour[0],
             codeFour[1]
