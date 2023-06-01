@@ -73,7 +73,7 @@ export default function Activities({activities}: any) {
 
     useEffect(() => {
         setLocationStatus(!locationStatus)
-    }, [selectedLocations]);
+    }, []);
 
     const handleSubmit = (e: any) => {
         if(days && Number(days) >= 7 && Number(days) <= 60) {
