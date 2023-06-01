@@ -19,12 +19,12 @@ export default function Activities({activities}: any) {
         "Wateractiviteit", "Snorkelen", "Sport"
     ];
     const [activeTab, setActiveTab] = useState("Strand");
+    const [tabStatus, setTabStatus] = useState(false);
 
     if (typeof window !== 'undefined') {
         const storage = { ... localStorage };
         const storageValues = Object.keys(storage).filter(a => a.length <= 2);
         const daysStorage = Object.keys(storage).filter(a => a === "days");
-
         storageValues.map(value => selectedActivities.push(Number(value)));
 
         useEffect(() => {
@@ -37,6 +37,7 @@ export default function Activities({activities}: any) {
 
             storage['tab'] !== undefined &&
                 setActiveTab(storage['tab']);
+            setTabStatus(true);
         }, []);
     }
 
@@ -44,7 +45,6 @@ export default function Activities({activities}: any) {
     let selectedLocations: string[] = [];
     selectedActivities.map(id => {
         const location = activities[id].location;
-
         selectedLocations.push(location);
     });
 
@@ -134,13 +134,15 @@ export default function Activities({activities}: any) {
                 <Map
                     locations={selectedLocations}
                 />
-
-                <Tabs 
-                    onClick={(tab) => handleTab(tab)}
-                    tabs={tabs}
-                    activeTab={activeTab}
-                />
                 
+                {
+                    tabStatus &&
+                        <Tabs 
+                            onClick={(tab) => handleTab(tab)}
+                            tabs={tabs}
+                            activeTab={activeTab}
+                        />
+                }
             </div>
 
             <div className='pt-[395px] pb-4'>
