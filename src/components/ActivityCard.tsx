@@ -92,7 +92,6 @@ const ActivityCard = ({
                 <Link
                     href={`/activities/${activity.id}`}
                     className='block w-fit text-primary-light border-[1px] rounded-md text-xs py-0.5 px-1.5 mt-2'
-                    replace
                 >
                     Meer weten
                 </Link>
