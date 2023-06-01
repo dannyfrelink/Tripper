@@ -34,7 +34,10 @@ export default function Activities({activities}: any) {
             selectedActivities.length > 0 ?
                 setSelected(true) :
                 setSelected(false)
-        }, [])
+
+            storage['tab'] !== undefined &&
+                setActiveTab(storage['tab']);
+        }, []);
     }
 
     const [locationStatus, setLocationStatus] = useState(false);
@@ -47,6 +50,8 @@ export default function Activities({activities}: any) {
 
     const handleTab = (tab: string) => {
         setActiveTab(tab);
+
+        localStorage.setItem('tab', tab)
     }
 
     const handleFavourite = (id: number) => {
