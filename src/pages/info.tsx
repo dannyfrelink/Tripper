@@ -2,7 +2,7 @@ import Header from '@/components/Header';
 import Details from '@/components/Details';
 import { useEffect, useState } from 'react';
 
-export default function Info() {
+export default function Info({information}: any) {
     const [routeCreated, setRouteCreated] = useState(false);
 
     if (typeof window !== 'undefined') {
@@ -31,85 +31,54 @@ export default function Info() {
                 </h2>
 
                 <div className='[&>*:first-of-type]:mt-5 [&>*]:mt-3'>
-                    <Details
-                        summary='Regelen voor vertrek'
-                    >
-                        A common form of Lorem ipsum reads:
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </Details>
+                    {information.map((info: any, index: number) => {
+                        const details = Object.entries(info).filter(i =>
+                            i[0].includes('details')
+                        );
 
-                    <Details
-                        summary='Verkeer op Bali'
-                    >
-                        A common form of Lorem ipsum reads:
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </Details>
+                        return (
+                            <Details summary={info.summary} key={index}>
+                                <div className='[&>div>p]:mb-1.5 [&>div:not(:last-of-type)]:mb-3.5'>
+                                    {details.map((detail, index) => {
+                                        const title = detail[1].split('<title>')[1];
+                                        const content = detail[1].split('//').slice(1);
 
-                    <Details
-                        summary="Risico's op Bali"
-                    >
-                        A common form of Lorem ipsum reads:
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </Details>
+                                        return (
+                                            <div key={index}>
+                                                <h3 className='font-semibold mb-0.5'>
+                                                    {index + 1}. {title}
+                                                </h3>
 
-                    <Details
-                        summary='Praktische zaken'
-                    >
-                        A common form of Lorem ipsum reads:
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </Details>
-
-                    <Details
-                        summary='Gezondheidszaken'
-                    >
-                        A common form of Lorem ipsum reads:
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </Details>
-
-                    <Details
-                        summary='In geval van nood'
-                    >
-                        A common form of Lorem ipsum reads:
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </Details>
+                                                {content.map((text: string, index: number) =>
+                                                    <p key={index}>
+                                                        {text}
+                                                    </p>    
+                                                )}
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                            </Details>
+                        )
+                    })}
                 </div>
             </section>
         </main>
     );
+}
+
+// Fetching local importantInfo json
+import fsPromises from 'fs/promises';
+import path from 'path';
+
+export async function getStaticProps() {
+    const filePath = path.join(process.cwd(), 'importantInfo.json');
+    const jsonData = await fsPromises.readFile(filePath);
+    const importantInfo = JSON.parse(jsonData.toString());
+  
+    return {
+      props: {
+        information: importantInfo.info
+      }
+    }
 }
