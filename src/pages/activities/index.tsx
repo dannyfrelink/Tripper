@@ -50,8 +50,8 @@ export default function Activities({activities}: any) {
 
     const handleTab = (tab: string) => {
         setActiveTab(tab);
-
-        localStorage.setItem('tab', tab)
+        localStorage.setItem('tab', tab);
+        window.scrollTo({top: 0});
     }
 
     const handleFavourite = (id: number) => {
