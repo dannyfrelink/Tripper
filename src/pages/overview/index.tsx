@@ -125,6 +125,7 @@ export default function Overview({activities}: any) {
 
             <Map
               locations={selectedLocations}
+              route={true}
             />
 
             <TravelSchedule 

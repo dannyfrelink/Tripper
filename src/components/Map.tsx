@@ -4,6 +4,7 @@ import MapMarker from './MapMarker';
 
 interface MapProps {
     locations: string[];
+    route?: boolean;
 }
 
 interface ObjectType {
@@ -18,7 +19,8 @@ interface CoordinatesProps {
 }
 
 const Map = ({
-    locations
+    locations,
+    route = false
 }: MapProps) => {
     const uniqueLocations = [...new Set(locations)]
     const map: ObjectType = { Canggu: 1, Ubud: 2, Amed: 3, Nusa: 4, Uluwatu: 5 };
@@ -55,10 +57,10 @@ const Map = ({
         ]
     ));
 
-    const codeOne = lineData.length > 1 && [lineData[0], lineData[1]];
-    const codeTwo = lineData.length > 2 && [lineData[1], lineData[2]];
-    const codeThree = lineData.length > 3 && [lineData[2], lineData[3]];
-    const codeFour = lineData.length > 4 && [lineData[3], lineData[4]];
+    const codeOne = route && lineData.length > 1 && [lineData[0], lineData[1]];
+    const codeTwo = route && lineData.length > 2 && [lineData[1], lineData[2]];
+    const codeThree = route && lineData.length > 3 && [lineData[2], lineData[3]];
+    const codeFour = route && lineData.length > 4 && [lineData[3], lineData[4]];
 
     const dataOne = codeOne && {
         type: "Feature" as const,
