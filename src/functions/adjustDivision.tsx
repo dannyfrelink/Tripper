@@ -141,5 +141,5 @@ export default async function adjustDivision (daysPerLocation: any, storedDaysVa
         }
     }
 
-    return newDaysPerLocation;
+    return await newDaysPerLocation;
 }

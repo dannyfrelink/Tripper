@@ -65,49 +65,47 @@ export default function Overview({activities}: any) {
       daysPerLocation[location] = Math.round(selectedLocations.filter((a:any) => a === location).length / activityCount * Number(storedDaysValue));
     });
 
-    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations).then(a => Object.keys(a).map(b => newDaysPerLocation[b] = a[b]));
-  }
+    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations).then(a => Object.keys(a).map(b => {
+      newDaysPerLocation[b] = a[b];
+      localStorage.setItem('daysPerLocation', JSON.stringify(newDaysPerLocation));
 
-  useEffect(() => {
-    Object.keys(newDaysPerLocation).map((location: string) => {
-      daysInTextPerLocation[location] = numberToWords(newDaysPerLocation[location] > 1 ? newDaysPerLocation[location] - 1 : newDaysPerLocation[location]);
+      // Convert numbers to text
+      Object.keys(newDaysPerLocation).map((location: string) => {
+        daysInTextPerLocation[location] = numberToWords(newDaysPerLocation[location] > 1 ? newDaysPerLocation[location] - 1 : newDaysPerLocation[location]);
+  
+        localStorage.setItem(location, newDaysPerLocation[location].toString());
+      });
 
-      localStorage.setItem(location, newDaysPerLocation[location].toString());
-    });
-
-    localStorage.setItem('daysPerLocation', JSON.stringify(newDaysPerLocation));
-  }, [newDaysPerLocation]);
-
-  useEffect(() => {
-    let generatedTextPerLocation: ObjectTypeText = {};
-
-    Object.keys(daysInTextPerLocation).map(async (location) => {
-      const activities = activitiesPerLocation[location].map(activity => activity.name);
-
-      if(localStorage.getItem(`${location}-content`) === null) {
-        let generatedText = await fetch('/api/generateDaySchedule', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            prompt: `Maak een reisroute voor ${daysInTextPerLocation[location]} dagen met enkel deze activiteiten in lopende tekst: ${activities.join(", ")}. Er mogen geen andere activiteiten bijkomen. Splits de dagen op in aparte alinea's en begin iedere alinea met welke dag dit is.`
-          })
-        }).then(res => res.json());
-
-        generatedTextPerLocation[`${location}-content`] = generatedText.text;
-
-        if(Object.keys(generatedTextPerLocation).length === Object.keys(daysInTextPerLocation).length) {
-          Object.keys(generatedTextPerLocation).map(location => {
-            localStorage.setItem(location, generatedTextPerLocation[location]);
-            setLoading(false);
-          });
+      // Generate day schedule and remove loading state
+      let generatedTextPerLocation: ObjectTypeText = {};
+      Object.keys(daysInTextPerLocation).map(async (location) => {
+        const activities = activitiesPerLocation[location].map(activity => activity.name);
+  
+        if(localStorage.getItem(`${location}-content`) === null) {
+          let generatedText = await fetch('/api/generateDaySchedule', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              prompt: `Maak een reisroute voor ${daysInTextPerLocation[location]} dagen met enkel deze activiteiten in lopende tekst: ${activities.join(", ")}. Er mogen geen andere activiteiten bijkomen. Splits de dagen op in aparte alinea's en begin iedere alinea met welke dag dit is.`
+            })
+          }).then(res => res.json());
+  
+          generatedTextPerLocation[`${location}-content`] = generatedText.text;
+  
+          if(Object.keys(generatedTextPerLocation).length === Object.keys(daysInTextPerLocation).length) {
+            Object.keys(generatedTextPerLocation).map(location => {
+              localStorage.setItem(location, generatedTextPerLocation[location]);
+              setLoading(false);
+            });
+          }
+        } else {
+          setLoading(false);
         }
-      } else {
-        setLoading(false);
-      }
-    });
-  }, [daysInTextPerLocation]);
+      });
+    }));
+  }
 
   return (
     <main>
