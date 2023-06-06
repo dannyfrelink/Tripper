@@ -2,12 +2,14 @@ import Header from '@/components/Header';
 import MapLocation from '@/components/MapLocation';
 import DaySchedule from '@/components/DaySchedule';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 
 interface ObjectTypeText {
     [location: string]: string;
 } 
 
 export default function Overview({location, locationArrival}: any) {
+    const router = useRouter();
     const [activityLoad, setActivityLoad] = useState(false);
     let filteredActivities = [];
     let daysForLocation;
@@ -50,9 +52,13 @@ export default function Overview({location, locationArrival}: any) {
                 leftAlt='Vorige pagina'
             />
 
-            <MapLocation 
-                activities={filteredActivities}
-            />
+            {
+                status && 
+                    <MapLocation 
+                        activities={filteredActivities}
+                        location={location[0].location.toLowerCase()}
+                    />
+            }
 
             <div className='text-primary-light bg-secondary-dark shadow-subtle w-11/12 m-auto rounded-xl p-7 mt-7'>
                 <h2 className='font-semibold text-lg'>
@@ -65,6 +71,10 @@ export default function Overview({location, locationArrival}: any) {
                             location={filteredActivities[0].location}
                             locationArrival={locationArrival}
                             daySchedulePerDay={daySchedulePerDay}
+                            onClickSwitch={async (e) => {
+                                await router.push(`/overview/${e.target.id}`);
+                                router.reload();
+                            }}
                         />
                 }
             </div>

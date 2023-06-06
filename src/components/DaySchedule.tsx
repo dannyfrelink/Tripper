@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Details from './Details';
 
 interface DayScheduleProps {
@@ -7,12 +6,14 @@ interface DayScheduleProps {
     daySchedulePerDay: {
         [day: string]: string
     };
+    onClickSwitch: (e:any) => void;
 }
 
 const DaySchedule = ({
     location,
     locationArrival,
-    daySchedulePerDay
+    daySchedulePerDay,
+    onClickSwitch
 }: DayScheduleProps) => {
     let buttonLocations: string[] = [];
 
@@ -20,19 +21,19 @@ const DaySchedule = ({
         const storage = { ... localStorage };
         const daysPerLocation = JSON.parse(storage["daysPerLocation"]);
         let locations: string[] = [];
-        Object.keys(daysPerLocation).map(location => locations.push(location))
+        Object.keys(daysPerLocation).map(location => locations.push(location));
 
         let buttonLocationsIndex: number[] = [];
         locations.map((loc, index) =>
             loc === location &&
                 buttonLocationsIndex.push(index - 1) + 
                 buttonLocationsIndex.push(index + 1)
-        )
+        );
 
         buttonLocationsIndex.map((index, i) =>
             index >= 0 && index < locations.length &&
                 buttonLocations.push(`${i === 0 ? 'left' : 'right'}: ${locations[index]}`)
-        )
+        );
     }
 
     return (
@@ -58,13 +59,14 @@ const DaySchedule = ({
                         const loc = location.split(': ')[1];
 
                         return (
-                        <Link
+                        <button
                             key={index}
+                            id={loc.toLowerCase()}
                             className={`block w-fit text-primary-light border-[1px] rounded-md text-sm py-0.5 px-1.5 mt-3 ${indicator === 'left' ? 'mr-auto' : 'ml-auto'}`}
-                            href={`/overview/${loc.toLowerCase()}`}
+                            onClick={onClickSwitch}
                         >
                             {indicator === 'left' && '<-'} {loc} {indicator === 'right' && '->'}
-                        </Link>
+                        </button>
                         )
                     })
                 }
