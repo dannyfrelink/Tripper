@@ -67,6 +67,7 @@ export default function Activities({activities}: any) {
 
             selectedLocations.push(location);
         });
+        setLocationStatus(!locationStatus);
         
         selectedActivities.length > 0 ?
             setSelected(true) :
@@ -75,10 +76,6 @@ export default function Activities({activities}: any) {
         localStorage.clear();
         selectedActivities.map(activity => localStorage.setItem(activity.toString(), activity.toString()));
     }
-
-    useEffect(() => {
-        setLocationStatus(!locationStatus)
-    }, []);
 
     const handleSubmit = (e: any) => {
         if(days && Number(days) >= 7 && Number(days) <= 60) {
