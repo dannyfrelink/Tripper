@@ -39,6 +39,7 @@ export default function Overview({activities}: any) {
   let storedDaysValue: string = '';
   let selectedLocations: string[] = [];
   let daysPerLocation: ObjectType = {};
+  let newDaysPerLocation: ObjectType = {};
   let daysInTextPerLocation: ObjectTypeText = {};
   let activitiesPerLocation: ObjectTypeArray = {};
 
@@ -64,16 +65,18 @@ export default function Overview({activities}: any) {
       daysPerLocation[location] = Math.round(selectedLocations.filter((a:any) => a === location).length / activityCount * Number(storedDaysValue));
     });
 
-    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations);
+    adjustDivision(daysPerLocation, storedDaysValue, selectedLocations).then(a => Object.keys(a).map(b => newDaysPerLocation[b] = a[b]));
+  }
 
-    Object.keys(daysPerLocation).map((location: string) => {
-      daysInTextPerLocation[location] = numberToWords(daysPerLocation[location] > 1 ? daysPerLocation[location] - 1 : daysPerLocation[location]);
+  useEffect(() => {
+    Object.keys(newDaysPerLocation).map((location: string) => {
+      daysInTextPerLocation[location] = numberToWords(newDaysPerLocation[location] > 1 ? newDaysPerLocation[location] - 1 : newDaysPerLocation[location]);
 
-      localStorage.setItem(location, daysPerLocation[location].toString());
+      localStorage.setItem(location, newDaysPerLocation[location].toString());
     });
 
-    localStorage.setItem('daysPerLocation', JSON.stringify(daysPerLocation))
-  }
+    localStorage.setItem('daysPerLocation', JSON.stringify(newDaysPerLocation));
+  }, [newDaysPerLocation]);
 
   useEffect(() => {
     let generatedTextPerLocation: ObjectTypeText = {};
@@ -130,7 +133,6 @@ export default function Overview({activities}: any) {
 
             <TravelSchedule 
               storedDaysValue={storedDaysValue}
-              daysPerLocation={daysPerLocation}
             />
           </div>
       }
