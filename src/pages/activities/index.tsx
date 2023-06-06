@@ -75,6 +75,7 @@ export default function Activities({activities}: any) {
 
         localStorage.clear();
         selectedActivities.map(activity => localStorage.setItem(activity.toString(), activity.toString()));
+        days && localStorage.setItem('days', Math.round(days).toString());
     }
 
     const handleSubmit = (e: any) => {
@@ -83,7 +84,7 @@ export default function Activities({activities}: any) {
                 setActivitiesError(true);
                 e.preventDefault();
             } else {
-                localStorage.setItem("days", Math.round(days).toString());
+                localStorage.setItem('days', Math.round(days).toString());
             }
         } else {
             e.preventDefault();
@@ -94,6 +95,7 @@ export default function Activities({activities}: any) {
     const handleChange = (e: any) => {
         setDays(e.target.value);
         setDaysError(false);
+        localStorage.setItem('days', e.target.value);
 
         localStorage.getItem('Canggu-content') !== null &&
             localStorage.removeItem('Canggu-content');
