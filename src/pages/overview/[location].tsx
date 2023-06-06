@@ -59,7 +59,7 @@ export default function Overview({location, locationArrival}: any) {
 
             <div className='text-primary-light bg-secondary-dark shadow-subtle w-11/12 m-auto rounded-xl p-7 mt-7'>
                 <h2 className='font-semibold text-lg'>
-                    {activityLoad && filteredActivities[0].location} {activityLoad && daysForLocation} dagen
+                    {activityLoad && filteredActivities[0].location} {activityLoad && daysForLocation} {activityLoad && daysForLocation > 1 ? 'dagen' : 'dag'}
                 </h2>
 
                 {
