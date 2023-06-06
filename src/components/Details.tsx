@@ -23,9 +23,9 @@ const Details = ({
 
             {
                 detailStatus && 
-                <p className='font-regular text-sm mt-2.5'>
+                <div className='font-regular text-sm mt-2.5'>
                     {children}
-                </p>
+                </div>
             }
         </div>
     );

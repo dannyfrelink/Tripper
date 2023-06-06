@@ -36,6 +36,10 @@ export default function Overview({location, locationArrival}: any) {
 
             daySchedulePerDay[`Dag ${i + 1}`] = scheduleSplit2[0].replaceAll(i, i+1)
         }
+
+        if(daysForLocation === 1) {
+            daySchedulePerDay['Dag 1'] = dayScheduleClean.split('Dag 1')[1]
+        }
     }
 
     useEffect(() => {

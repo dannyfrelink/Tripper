@@ -39,17 +39,29 @@ const DaySchedule = ({
     return (
         <div className='[&>*:first-of-type]:mt-5 [&>*]:mt-3'>
             <Details summary={`Dag 1: aankomst ${location}`}>
-                {locationArrival}
+                <p>
+                    {locationArrival}
+                </p>
+
+                {
+                    Object.keys(daySchedulePerDay).length === 1 &&
+                        <p className='mt-3'>
+                            {daySchedulePerDay['Dag 1']}
+                        </p>
+                }
             </Details>
             {
-                Object.keys(daySchedulePerDay).map((day, index) => 
-                    <Details
-                        key={index}
-                        summary={`${day}: activiteiten ${day.toLowerCase()}`}
-                    >
-                        {daySchedulePerDay[day]}
-                    </Details>
-                )
+                Object.keys(daySchedulePerDay).length > 1 &&
+                    Object.keys(daySchedulePerDay).map((day, index) => 
+                        <Details
+                            key={index}
+                            summary={`${day}: activiteiten ${day.toLowerCase()}`}
+                        >
+                            <p>
+                                {daySchedulePerDay[day]}
+                            </p>
+                        </Details>
+                    )
             }
 
             <div className='flex'>
