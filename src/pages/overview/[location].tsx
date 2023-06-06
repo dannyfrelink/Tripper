@@ -52,13 +52,10 @@ export default function Overview({location, locationArrival}: any) {
                 leftAlt='Vorige pagina'
             />
 
-            {
-                status && 
-                    <MapLocation 
-                        activities={filteredActivities}
-                        location={location[0].location.toLowerCase()}
-                    />
-            }
+            <MapLocation 
+                activities={filteredActivities}
+                location={location[0].location.toLowerCase()}
+            />
 
             <div className='text-primary-light bg-secondary-dark shadow-subtle w-11/12 m-auto rounded-xl p-7 mt-7'>
                 <h2 className='font-semibold text-lg'>
