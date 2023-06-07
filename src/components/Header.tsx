@@ -54,7 +54,7 @@ const Header = ({
                 </Link>
         }
 
-{
+        {
             backArrow &&
                 <Link className='left-6 absolute' href={backArrowHref}>
                     <Image
@@ -79,7 +79,6 @@ const Header = ({
                 </Link>
                 : ''
         }
-
     </header>
 );
   

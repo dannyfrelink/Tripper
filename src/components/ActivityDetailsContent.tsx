@@ -19,10 +19,8 @@ interface ActivityDetailsContentProps {
 
 const ActivityDetailsContent = ({
     activity
-}: ActivityDetailsContentProps) => {
-
-    return (
-        <div className='text-primary-dark text-[15px] w-11/12 mx-auto px-3.5 [&>*:not(:first-of-type)]:mt-2.5 my-6'>
+}: ActivityDetailsContentProps) => (
+    <div className='text-primary-dark text-[15px] w-11/12 mx-auto px-3.5 [&>*:not(:first-of-type)]:mt-2.5 my-6'>
         {activity.details.split('//').map((paragraph, index) => 
             <p key={index}>{paragraph}</p>
         )}
@@ -31,7 +29,6 @@ const ActivityDetailsContent = ({
             Verder zoeken
         </Link>
     </div>
-    );
-}
+);
   
 export default ActivityDetailsContent;

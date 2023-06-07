@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 interface TabsProps {
     onClick: (e: string) => void;
@@ -15,7 +15,6 @@ const Tabs = ({
         const activeElement = document.getElementById(activeTab);
         activeElement?.scrollIntoView({inline: 'center'})
     }, []);
-
 
     return (
         <div className="flex h-8 w-screen pl-[calc(100vw/12*0.5)] mt-8 mb-4 overflow-x-scroll scrollbar-hide [&>*:last-of-type]:mr-[calc(100vw/12*0.5)]">

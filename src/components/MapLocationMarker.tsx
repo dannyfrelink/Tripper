@@ -1,6 +1,5 @@
 import { Marker } from 'react-map-gl';
 import Image from 'next/image';
-import { useState } from 'react';
 import tourism from '../svg/tourism.svg';
 import price from '../svg/price.svg';
 

@@ -12,7 +12,7 @@ const MapMarker = ({
     longitude,
     attractions,
     name
-}: MapMarkerProps) =>  (
+}: MapMarkerProps) => (
     <Marker
         latitude={latitude}
         longitude={longitude}

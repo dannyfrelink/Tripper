@@ -21,7 +21,7 @@ const CloudButton = ({
     iconAlt,
     textClass,
     text
-}: CloudButtonProps) =>  (
+}: CloudButtonProps) => (
     <Link href={href} className={`absolute ${className}`}>
         <Image
             className={`absolute top-[50px] z-[1] scale-110 ${iconClass}`}

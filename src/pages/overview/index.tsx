@@ -4,7 +4,7 @@ import Map from "@/components/Map";
 import TravelSchedule from "@/components/TravelSchedule";
 import adjustDivision from "@/functions/adjustDivision";
 import numberToWords from "@/functions/numberToWords";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 interface ObjectType {
   [location: string]: number;
