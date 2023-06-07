@@ -44,14 +44,14 @@ const DaySchedule = ({
                 </p>
 
                 {
-                    Object.keys(daySchedulePerDay).length === 1 &&
+                    Object.keys(daySchedulePerDay).includes('Dag 1') &&
                         <p className='mt-3'>
                             {daySchedulePerDay['Dag 1']}
                         </p>
                 }
             </Details>
             {
-                Object.keys(daySchedulePerDay).length > 1 &&
+                !Object.keys(daySchedulePerDay).includes('Dag 1') &&
                     Object.keys(daySchedulePerDay).map((day, index) => 
                         <Details
                             key={index}
