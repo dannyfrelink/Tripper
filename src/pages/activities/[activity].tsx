@@ -9,14 +9,14 @@ export default function ActivitiesDetail({activity}: any) {
 
     if (typeof window !== 'undefined') {
         const storage = { ... localStorage };
-        const storageValues = Object.keys(storage).filter(a => a.length === 1);
+        const storageValues = Object.keys(storage).filter(a => a.length <= 2);
         storageValues.map(value => selectedActivities.push(Number(value)));
 
         useEffect(() => {
             selectedActivities.includes(activity.id) ?
                 setFavouriteActivity(true) :
                 setFavouriteActivity(false)
-        }, [])
+        }, []);
     }
 
     const handleFavourite = () => {
