@@ -12,7 +12,7 @@ const TravelSchedule = ({
     if (typeof window !== 'undefined') {
         const storage = { ... localStorage };
 
-        daysPerLocation = storage['daysPerLocation'] !== null && JSON.parse(storage['daysPerLocation'])
+        daysPerLocation = storage['daysPerLocation'] !== null && JSON.parse(storage['daysPerLocation']);
     }
     return (
         <div className="text-primary-light bg-secondary-dark rounded-xl w-11/12 mx-auto mt-8 py-5 px-7 shadow-subtle">
@@ -28,7 +28,7 @@ const TravelSchedule = ({
                         href={`overview/${location.toLowerCase()}`}
                     >
                         <li>
-                            {location} ({daysPerLocation[location]} dagen)
+                            {location} ({daysPerLocation[location]} {Number(daysPerLocation[location]) > 1 ? 'dagen' : 'dag'})
                         </li>
                     </Link>
                 )}
