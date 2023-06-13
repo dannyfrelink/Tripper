@@ -1,6 +1,5 @@
 # Tripper
 
-<!-- ![test](https://github.com/dannyfrelink/tripper/blob/main/public/screenrecording.mp4) -->
+https://github.com/dannyfrelink/tripper/assets/56267084/8b0d8b99-14c3-48be-b30c-446117f655cc
 
-<video src="https://github.com/dannyfrelink/tripper/blob/main/public/screenrecording.mp4" controls="controls" style="max-width: 730px;">
-</video>
+
