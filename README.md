@@ -4,13 +4,13 @@ Welcome to the Readme for my repository of my graduation project: Tripper. You c
 
 ## 📋 Table of Contents
 
-- [Concept](https://github.com/dannyfrelink/tripper#-concept)
+- [Product](https://github.com/dannyfrelink/tripper#-product)
 - [Product Biography](https://github.com/dannyfrelink/tripper#%EF%B8%8F-product-biography)
 - [Wishlist](https://github.com/dannyfrelink/tripper#-wishlist)
 - [Installation](https://github.com/dannyfrelink/tripper#-installation)
 - [License](https://github.com/dannyfrelink/tripper#-license)
 
-## 💡 Concept
+## 💡 Product
 
 The preparation of a roundtrip can be long and difficult. Users need to gather all information into one document, which makes you get lost in the process. Users can start there roundtrip unprepared, due to some information being difficult to find as well.
 
