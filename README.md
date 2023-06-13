@@ -5,7 +5,7 @@ Welcome to the Readme for my repository of my graduation project: Tripper. You c
 ## 📋 Table of Contents
 
 - [Concept](https://github.com/dannyfrelink/tripper#-concept)
-- [Process (Wiki)](https://github.com/dannyfrelink/tripper#%EF%B8%8F-product-biography)
+- [Product Biography](https://github.com/dannyfrelink/tripper#%EF%B8%8F-product-biography)
 - [Wishlist](https://github.com/dannyfrelink/tripper#-wishlist)
 - [Installation](https://github.com/dannyfrelink/tripper#-installation)
 - [License](https://github.com/dannyfrelink/tripper#-license)
