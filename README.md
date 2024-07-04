@@ -1,6 +1,6 @@
 # Tripper
 
-Welcome to the Readme for my repository of my graduation project: Tripper. You can find alle the information about the content inside this repository and how to transfer it to your own PC.
+Welcome to the Readme for my repository of my graduation project: Tripper. You can find all the information about the content inside this repository and how to transfer it to your own PC.
 
 ## 📋 Table of Contents
 
